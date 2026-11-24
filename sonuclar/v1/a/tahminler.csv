@@ -1,0 +1,597 @@
+kaynak,etiket,tahmin,karar,tur,asama,sure,gerekce,gonderen,konu
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,6.86,"1. E-posta gönderen adresi gerçek bir kurumun ailesi gibi görünmekte ve spamingin genellikle anonim adreslerden gerçekleştirilmesine benzer.
+2. E-postada ""Buy H ky G whr H Online"" ve ""Try It Risk Free - Order Today!"" gibi reklam ifadeleri bulunmakta.
+3. Benzer örneklerde (E1-E5) benzer spaminge maruziyet göstermektedir.",Cleveland Lockwood <dwtcdsonlinem@tcdsonline.com>,from Cleveland Lockwood
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,6.87,"1. E-posta, ""Penis Enlargement"" (genişletme) ürünleri ilan etmektedir.
+2. Bağlantı içeriği, benzer örneklerde olduğu gibi, şüpheli ve reklam içeriğiyle mevcuttur.
+3. E-posta, genel olarak benzer örneklere benzer bir stilde yazılmış ve tıpkı onlar gibi, genel bir dikkat çekme mesajı içerir.",Fritz Hays <DeonfarmhouseSnider@whatimseeing.com>,Which Ones Really Work? We List The Top Penis Enlargement Products!
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,5.96,"1. E-posta, tanınmayan bir kaynakdan ve belirsiz bir gönderenle gelmektedir.
+2. E-postada sağlık ve ürün fiyatları ilanı bulunmakta, bu tür ifadeler genellikle spam reklamlarında bulunur.
+3. Benzer örneklere göre, bu tür e-postalar genellikle sağlık ürünleri ve hizmetleri reklamlamaktadır.",Scotty Clark <xfdash@btc.bg>,You can find here all medicines what you want
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,9.57,"1. Gönderen adresi güvenilir bir marka sahibi olmayan bir e-posta adresidir.
+2. Benzer örneklerde olduğu gibi, e-posta metninde CNN.com'dan gelen bir liste ve bağlantılar bulunuyor.
+3. E-posta, tanınmayan bir kaynakdan ve benzer örneklerde olduğu gibi, CNN.com'dan gelen bir liste ve bağlantılar içeriyor. Bu, spam örneği olarak etiketlendiği için şüpheli bir e-posta olarak değerlendirilmektedir.",Daily Top 10 <4971070_1988@speed-sourcing.com>,CNN.com Daily Top 10
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,6.27,"1. E-posta, ""Love doctors recommend flirting as cure"" başlıklı ve bir bağlantı içeriyor, bu tür benzer örneklerde olduğu gibi bir reklam e-postası olabilir.
+2. Gönderen adresi, gerçek bir kurumun alan adı olmayan bir e-posta adresi.
+3. Benzer örneklerde de olduğu gibi, bu tür e-postalar genellikle sahte bir hediye veya sağlık ilacı teklifi içerir.",Ginty <velinkin@stfrancis.k12.mn.us>,Love doctors recommend flirting as cure
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,4.45,"1. E-posta, ""replica watches"" ifadesini içeriyor.
+2. E-postada belirli bir ürün veya hizmet satıldığı belirtiliyor.
+3. Benzer örneklerde de ayni tür bir spam reklam pattern gözlemleniyor.",Kerry Cummins <GwenmassacrePalacios@dcdatabaseproject.com>,Click here to purchase high-quality replica watch
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,5.7,"1. Gönderen e-posta adresi şüpheli ve gerçek bir kurumdan gelmemektedir.
+2. E-postada ""check out here"" ifadesi, ürün satışı için tıklatma isteği içermektedir.
+3. Benzer örneklere göre, bu tür ifadeler genellikle spam veya dolandırıcı e-postalarda bulunur.",iain welch <akstcrohnindmnsdgs@rohnind.com>,Goodiest ellwood solution
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,6.26,"1. E-posta, Viagra satışa sunma içermektedir.
+2. Gönderen adresi gerçek bir marka adı olmadığı görülmektedir.
+3. [E1], [E2], [E3], [E4], [E5] benzer örneklerde de benzer reklam içeriği bulunmaktadır.",Francis Mccann <seatingobp9@gerardiengineering.com>,Viagra 100mg x 30 pills price
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,8.36,"1. E-posta, ""Lose 10 pounds"" konusu ve ""Loss Weight Without Feeling Hungry!"" metni dolandırıcılık türüdür.
+2. E-postada ""http://www.400epillz7k.cn"" bağlantı adresi yer alıyor, bu tür e-postalarda sıkça görülen bir özelliktir.
+3. Benzer örneklere (E1, E4) göre, bu tür e-postalar genellikle sağlıklı ve etkili bir yöntem sunarak, kullanıcıya ağızdan ağıza bir ürün veya hizmet satmaya çalışmaktadır.",Johnny Deleon <kouki.danby@windship.dk>,Lose 10 pounds
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,7.5,"1. Gönderen adresi, gerçek bir marka veya kurum adı olmayan bir e-posta adresidir.
+2. E-postada bulunan ifadeler, anlamlı bir metni oluşturmadığından ve yaygın spam e-postalarında sıkça görülen karmaşık ve anlamsız ifadeleri içerdiği görülmektedir.
+3. Benzer örneklerde olduğu gibi, bu e-posta da gerçek bir metni temsil etmemekte ve yaygın spam taktiklerini benzer şekilde kullanmaktadır.",Rhonda Ervin <ThelmatrapErvin@pcthreat.com>,permissive embarrass picosecond sana embarrass
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,6.42,"1. E-posta, benzer örneklere (E1-E5) göre bir spam reklamı.
+2. E-posta metninde ""take a break off at work"" ifadesi, orijinal metnin ""take a break at work"" ifadesine küçük değişikliklerle benzer.
+3. ""Visit our site for further details"" ifadesi, genellikle spam e-postalarında sıkça kullanılır.",dalis bertrand <antonio.g.pimenteldd@seg-social.pt>,she can never find someone like you.
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,6.81,"1. E-postada ""http://dearbright.com/"" bağlantı adresi bulunuyor, bu tür e-postalarda sıkça görülen bir özelliktir.
+2. Metinde ""manly enhancement formula"" ifadesi yer alıyor, bu da dolandırıcılık ve spam e-postalarında sıkça kullanılan bir ifadedir.
+3. [E1], [E2], [E3], [E4] ve [E5] benzer örneklerde de benzer ifadeler ve bağlantılar bulunuyor.",Robbie Collier <Robbie@cal.no>,Rooster-challenged guys are welcome
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,5.32,"1. E-posta, ""replica watch"" ve ""Rolex Replica"" gibi ifadeler içeriyor.
+2. E-postada bir bağlantı bulunuyor: ""http://ollassabbet.com/"".
+3. Benzer örneklerde (E1-E5) ayni türde reklam e-postaları olduğu görülmektedir.",Eli Randall <RobbieneuronMolina@amtam.com>,Purchase cheap Vacheron Constantin replica watch here
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,7.08,"1. E-posta, benzer örneklere (E1-E5) göre bir genel kampanya e-postasıdır.
+2. Gönderen adresi (info@carolinesao.org) gerçek bir kurum gibi görünmüyor ve genel bir kampanya e-postasıdır.
+3. E-posta, genel bir kampanya ve indirim teklifini içerir ve tarihsel bir benzer örneğe (E1) eşleşmektedir.",devland theodore <info@carolinesao.org>,helpful for your health.
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,7.25,"1. E-postada ""http://wearplaces.com/"" bağlantı ifadesi bulunuyor.
+2. Benzer örneklere göre, bu tür e-postalar genellikle reklam veya ürün ilanları içermektedir.
+3. E-posta, ""Bid adieu to your bad luck in love"" başlıklı ve ""Do you still blanche at the thought of a future date?"" metniyle dolandırıcılık türü bir e-posta benzeri görünüyor.",Brandi Gunn <Brandi@3sheep.com>,Bid adieu to your bad luck in love
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,7.56,"1. E-postada bulunan bağlantı adresi, diğer şüpheli örneklerde olduğu gibi sahte ve yaygın kullanılan telif hakkı ihlali içeren sitelerden biridir.
+2. E-posta metninde bulunan kodlanmış ifadeler, diğer benzer örneklerde olduğu gibi anlamsız ve sahte görünümdeki metinlerdir.
+3. Gönderen e-posta adresi, diğer şüpheli örneklerde olduğu gibi sahte ve genellikle taklit edilen markaların alan adlarından ibaret olup, gerçek bir kurumun adresi değildir.",Yvette Page <dwtarbutm@tarbut.com>,From Yvette Page
+CEAS_08,1,1,ŞÜPHELİ,spam-reklam,qwen,4.53,"1. E-posta, ""replica watches"" ve ""rolex"" gibi ifadeler içeriyor.
+2. Benzer örneklerde olduğu gibi, e-posta, sahte zegâf satışı ilanı içeriyor.
+3. Sahte bağlantı adresi bulunuyor.",Logan Huffman <RodgersherryOneal@photoshopnews.com>,"Find the best replica rolex, Jewelry etc."
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,7.51,"1. E-posta, ""buy 1 get 2 free"" ve ""global opportunity"" gibi reklam ifadeleri içeriyor.
+2. Benzer örneklerde olduğu gibi, e-posta, yüksek kazanç potentiali ve düşük yatırım gerektiren bir iş fırsatı teklifi sunuyor.
+3. E-posta, ""reserve your free position now"" ve ""click the following link"" gibi istekler içeriyor, bu da e-postanın spam olabileceğini gösteriyor.",(bilinmiyor),buy 1 get 2 free : global opportunity
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,7.61,"1. E-postada ""save over 60 % on your pills"" ifadesi bulunuyor, bu tür e-postaların karakteristik ifadelerinden biridir.
+2. Benzer örneklere göre, gönderen (bilinmiyor) ve metn içindeki link ve genel yapısı, diğer spam örneklere benzer.
+3. E-posta, tanınmayan bir kaynakdan ve istenmeyen bir reklamla ilgili olup, güvenli bir mesaj değildir.",(bilinmiyor),worrks fine
+Enron,1,1,ŞÜPHELİ,dolandırıcılık,qwen,8.18,"1. E-posta, ""beneficiary"" ifadesi içeriyor, bu dolandırıcılık türünden e-postalardan sıkça görülen bir ifadedir.
+2. E-posta, ""Mikhail Khodorkovsky"" isimli bir kişinin parasal sorumluluğunu taklit ediyor ve kendi parçasını almayı amaçlıyor.
+3. E-posta, [E1], [E2], [E3] gibi benzer örneklere benzer şekilde bir para transferi teklifi içeriyor.",(bilinmiyor),response needed
+Enron,1,1,ŞÜPHELİ,dolandırıcılık,qwen,6.88,"1. E-posta ""urgent / confidential"" konusu ve ""urgent and very confidential business proposition"" metni içeriyor, dolandırıcılık örneklere benzer.
+2. E-posta, 1998 yılında bir kişinin ölüp mirası konusunda bir teklif sunuyor, dolandırıcılık türünden şüpheli e-postalardan biri.",(bilinmiyor),business partnership ( urgent / confidential )
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,8.92,"1. E-posta, ""tell these cam sluts what to do"" başlıklı ve cam kadınlara çeşitli isimler vererek onlara emir verme isteği içeriyor.
+2. E-posta, ""click now and tell any of these women what to do for you live on camera"" ve ""click here for the free live show!"" gibi reklam bağıtları içeriyor.
+3. E-posta, ""free live show"" ve ""free membership"" gibi ifadelerle kullanıcıyı pişmanlık duymadan reklam sitelerine yönlendirmeye çalışıyor. Bu, [E1] ve [E2] örneklere benzer şekilde bir spam reklam e-postasıdır.",(bilinmiyor),tell these cam sluts what to do
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,5.47,"1. E-posta gönderen adresi bilinmiyor.
+2. E-posta metninde ""visit our pharmmail shop"" ve fiyat bilgileri gibi reklam içeriği bulunuyor.
+3. Benzer örneklere göre, gönderenin gerçek bir kurum değil ve e-posta spam reklamıdır.",(bilinmiyor),mbj 71 - medicationns
+Enron,1,0,GÜVENLİ,-,qwen,6.13,"1. E-posta, bir DJ'nin performanslarını ve kitlenizi tanıtan bir bilgi sağlar.
+2. E-posta içeriğinde reklam veya kişisel bilgi talebi bulunmamaktadır.
+3. Benzer örneklerde olduğu gibi, bu tür bilgi sağlayıcı e-postalar genellikle güvenli olup, dolandırıcılık veya spam içermemektedir.",(bilinmiyor),queen nakadia . . . booking now new years eve ( europe only )
+Enron,1,0,GÜVENLİ,-,qwen,8.02,"1. E-posta, gönderenin kimliğini belirleyemediğimiz bir adresle gönderildi.
+2. E-posta, bir e-posta gönderiminden kaynaklanan bir geri dönüş bildirimi olup, dolayısıyla dolandırıcılık veya spam içermemektedir.
+3. E-posta, bir hata mesajı ve geçerli bir hata kodu 550 5.1.2 ile birlikte bulunuyor, bu nedenle şüpheli bir istek veya tehdit içermemektedir.",(bilinmiyor),returned mail : see transcript for details
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,7.5,"1. E-posta, tanınmayan bir gönderen adresiyle gelmektedir.
+2. E-posta, çeşitli yazılım ürünleri ile ilgili toplu ve düşük fiyatlı teklifler içeriyor.
+3. Benzer örneklerde de olduğu gibi, bu e-posta, genel olarak yazılım ürünleri ile ilgili toplu ve düşük fiyatlı teklifler içeriyor ve tanınmayan bir gönderen adresiyle geldi. Bu, spam-reklam türüne işaret ediyor.",(bilinmiyor),oem software at cheap prices - moulton
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,7.45,"1. E-posta, ""website promotion on autopilot"" ve ""submit your website in multiple search engines"" gibi ifadeler kullanarak spam örneklere benzer.
+2. E-posta, ""free access to our sampler database of over 9 million targeted email addresses"" ve ""launch your online sales into a new stratosphere of growth"" gibi ifadelerle dolu.
+3. E-posta, ""submit your website in search engines"" ve ""increase your online sales dramatically"" gibi ifadelerle dolu, bu tür spam örneklere benzer.",(bilinmiyor),you don _ t know how to get into search engine results ?
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,5.43,"1. E-posta, pornografik içerik ve izinsiz izleme konusunda tehdit içeriyor.
+2. Benzer örneklerde olduğu gibi, gönderen bilinmiyor ve e-posta spame benzer.
+3. E-posta, izinsiz bir link içeriyor ve spame benzer şekilde reklam içermektedir.",(bilinmiyor),kids and there parents . . clank
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,8.88,"1. Gönderen adresi bilinmiyor ve e-posta sahiplerine ait görünmüyor.
+2. E-postada ""make the most of yor home"" ve ""further drop ! rates starting at 3 . 25 %"" gibi yüksek faiz oranlarını teklif eden ifadeler bulunuyor.
+3. E-posta, ""secure site"" kullanarak başvuru yapma isteği içeriyor, bu tür istekler genellikle şifre veya kişisel bilgi istemeyi içerir. Benzer örneklere [E1], [E2], [E3] ve [E4] bakıldığında, bu tür e-postalar spam ve dolandırıcıdır.",(bilinmiyor),make the most of yor home
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,15.78,"1. E-posta, tanınmayan bir gönderen adresinden gelmektedir.
+2. Metinde ""80 %"" ve ""smart ink system"" gibi ürün ve fiyat ilgili ifadeler bulunmakta.
+3. Benzer örneklere göre, bu tür ifadeler ve linkler genellikle spam ve reklam e-postaları için karakteristik.",(bilinmiyor),
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,9.01,"1. Gönderen adresi bilinmiyor.
+2. E-posta, ""free trial"" ve ""toll free"" numarası gibi spam tipik özellikleri içeriyor.
+3. Benzer örneklerde (E1) olduğu gibi, e-posta, ücretsiz deneme teklifleri ve arama ücretlerini azaltma teklifleri içeriyor.",(bilinmiyor),spend too much on your phone bill ? 25711
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,7.93,"1. E-posta gönderen adresi bilinmiyor.
+2. E-postada ""cheap high-quality software"" (uygunsuz kaliteli yazılım) ve çeşitli yazılım ürünleri fiyat bilgileri yer alıyor, bu tür ifadeler [E1]...[E5] örneklerinde de olduğu gibi benzer bir spam reklamı işaretleri taşıyor.
+3. E-posta sonunda belirli bir web adresi de yer alıyor, bu da genellikle tıpkı [E1] gibi spam örneğinde olduğu gibi bir tarama veya tıklatma isteği olabilir.",(bilinmiyor),looking for cheap high - quality software ?
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,6.88,"1. E-posta, ""mini cars are back"" gibi bir teklif içeriyor ve tıklama linkleri kullanıyor.
+2. Benzer örneklerde (E1, E3, E4, E5) olduğu gibi, tıklama linkleri ve ürün teklifleri içeren e-postalar şüpheli olarak değerlendiriliyor.
+3. Gönderen kontrolü yok ve e-posta genel olarak tanınmayan bir kaynakdan gelmiş görünüyor.",(bilinmiyor),ask santa - mini cars are back
+Enron,1,1,ŞÜPHELİ,spam-reklam,qwen,12.18,"1. E-posta, ""adipren 720"" adlı bir ürün ve ağızdan yoluyla kaynaklanan bir ağız soğutucu olan horehound'un bir kombinasyonu hakkında bilgi veriyor. Bu, genellikle spam ve dolandırıcılık e-postalarında sıkça kullanılan tür bir ürün tanımıdır.
+2. E-posta, ""100 % money back guarantee"" ve ""lose up to 19 % total body weight"" gibi güçlü ve tuhaf garantiler ve sonuçlar içeriyor. Bu, dolandırıcılık ve spam e-postalarında sıkça kullanılan tür bir ifadedir.
+3. E-posta, ""if you wish not to be contacted again please enter your email address here"" şeklinde bir istek içeriyor, bu da dolandırıcılık e-postalarında sıkça kullanılan bir türüdür. Benzer örneklere [E1], [E2] ve [E4] atıf yapar.",(bilinmiyor),adipren 720 - natural weight loss - money back guarantee ! horehound
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,9.66,"1. E-posta, ""lose weight"" (ağızdan kaybetme) ve ""slender now"" (zayıflama şimdi) gibi ağızdan kaybetme ürünleri ilan ediyor.
+2. E-posta, ""eat ! eat ! eat !"" (yemek! yemek! yemek!) ve ""no exercise"" (hayır, egzersiz yapma) gibi ifadeler içeriyor, bu genellikle ağızdan kaybetme ürünlerinin reklamlarında bulunur.
+3. E-posta, ""full refund"" (tam geri ödeme) sözü veriyor, bu genellikle gerçek ürünlerde bulunmayan bir garantidir ve şüpheli bir işaret olabilir.",(bilinmiyor),"^ * ^ * ^ i lost 23 pounds in 4 weeks , so could you ! ! !"
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,8.13,"1. E-posta, ""xxx"" içeriklerine ve ""cd-rom"" satışı içeriyor.
+2. E-posta, ""legal adult over the age of 18-21"" ifadesiyle yetişkin içeriklerle ilgili olup olmadığını kontrol etmeye davet ediyor.
+3. E-posta, ""5680 xxx picture on one cd-rom"" ve ""free samples"" gibi reklam ifadeleri içeriyor.",(bilinmiyor),very important ! read carefully
+Ling,1,1,ŞÜPHELİ,dolandırıcılık,qwen,9.82,"1. E-posta, ""jokes4u $ 100,000 sweepstakes"" gibi miras ve yüklü para transferi vaatleri içeriyor.
+2. ""enter the jokes4u $ 100,000 sweepstakes and you can be that much richer"" ifadesi dolandırıcılığı işaretliyor.
+3. E-posta, ""http://www.jokes4u.com/sweepstakes.html"" bağlantılarına tıklayarak daha fazla bilgi almayı teşvik ediyor, bu da dolandırıcılık türüne işaret ediyor. [E1] benzer örnekte olduğu gibi.",(bilinmiyor),welcome to jokes internet magazine - cn : 80924609220
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,6.3,"1. E-posta, ""free xxx experience"" gibi açıkça reklam içeren ifadeler içeriyor.
+2. Benzer örneklerde de ""free live video sex"", ""free adult"", ""free xxx hardcore"" gibi ifadeler bulunuyor.
+3. Gönderen adresi bilinmiyor ve e-posta, tanınmayan bir kaynakdan gelmiş görünüyor.",(bilinmiyor),the ultimate free xxx experience ! !
+Ling,1,1,ŞÜPHELİ,dolandırıcılık,qwen,11.74,"1. E-posta, ""resellers are needed"" (satıcılar aranıyor) ve yüksek kazanç potentiali ile dolandırıcılık tıpkı [E1], [E3] ve [E4] örneklerinde olduğu gibi öne sürülmüştür.
+2. E-posta, ""no money now"" (şu anda para ödemeye gerek yok) ve ""earn $ 2500.00 per week"" (haftada $ 2500 kazan) gibi yüksek kazanç teklifleri içerir, bu da dolandırıcılık türüne işaret eder.
+3. E-posta, ""print this form and reply by fax"" (bu formu yazdırın ve faks ile yanıt verin) gibi isteklerle dolu, bu da dolandırıcılık türüne tipik bir özellik olarak girebilir.",(bilinmiyor),a new weight loss patch from north america print this form and reply by fax to 816-356 - 7310 for more info ! call our one minute information line 913-383 - 7979
+Ling,1,0,GÜVENLİ,-,qwen,7.98,"1. E-posta, gerçek bir kurumdan (Lead Generator) ve olağan bir kampanya veya indirim ilanı gibi görünmektedir.
+2. E-postada ""cold-calling"", ""advertising"" gibi terimler geçmekle birlikte, e-posta, genel bir satış ilanı ve önerisi sunmaktadır.
+3. E-posta, genel bir öneri sunar ve özel bilgi veya ödeme talep etmez. Bu, spam veya dolandırıcılık e-postaları ile karşılaştırıldığında daha güvenli görünmektedir.",(bilinmiyor),on - line sales leads
+Ling,1,1,ŞÜPHELİ,dolandırıcılık,qwen,7.07,"1. E-posta, ""multiple streams of income challenge"" gibi miras ve kazanç vaatleri içeriyor.
+2. Gönderenin gerçek kimliği bilinmiyor ve e-posta, tanınmayan bir kaynakdan gelmektedir.
+3. Benzer örneklerde olduğu gibi, bu tür e-postalar genellikle gerçek bir kimliğin veya kurumun gönderdiği olmaz.",(bilinmiyor),the challenge
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,7.91,"1. Gönderen adresi bilinmiyor.
+2. E-postada ""immediately"" ifadesi bulunuyor, bu genellikle acil bir durum veya hemen hareket gerektiren bir teklif belirtir.
+3. E-posta, ""kick-it"" ürününün satışı ve rapid sonuçlar sözü vererek kullanıcıları tıkanık olmalarını teşvik ediyor. Bu, genellikle spam ve dolandırıcılık e-postalarında görülen bir taktiktir.",(bilinmiyor),attention smokers quit smoking immediately
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,28.23,"1. E-posta, ""remove"" isteği içeriyor, bu genellikle spam e-postalarında bulunur.
+2. E-posta, ""click here"" ve ""email us"" gibi tıklama istekleri içeriyor, bu da spam türünden bir e-posta işaretidir.
+3. E-posta, ""virtual servers for 'responsible' direct email marketers"" ifadesiyle bir reklam sunuyor, bu da spam-reklam türünden bir e-posta işaretidir.",(bilinmiyor),ad : stop pain fast !
+Ling,1,0,GÜVENLİ,-,qwen,7.72,"1. E-posta, bir oyun şirketi tarafından gönderildiği ve oyunun denemesi için bir link sunulduğu için, dolandırıcılık veya spam olasılığı yoktur.
+2. E-posta, gerçek bir istek ve bilgilendirme içermekte ve ""spam"" olarak etiketlenmiştir.
+3. E-posta, benzer örneklerde (E1, E2, E3, E4, E5) olduğu gibi, reklam veya dolandırıcılık içeriği içermez.",(bilinmiyor),"from fanny , recommending nek"
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,7.3,"1. Gönderen adresi bilinmiyor ve e-posta, tanınmayan bir kaynakdan gelmektedir.
+2. E-postada ""get-a - way"" ve ""promotions"" gibi reklam指向的关键词，表明这封邮件具有广告性质。
+3. Benzer örneklere göre, bu tür e-postalar genellikle tanınmayan kaynaklardan gelen ve kişisel bilgiye dayalı olarak gönderilen reklamları içerir.",(bilinmiyor),"adv : y2k . . . pristine , remote wilderness acreage ."
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,5.99,"1. E-posta, ""immediately"" ifadesi kullanarak acil bir durumu vurguluyor.
+2. Robert G. Allen isminde bir reklam e-postası benzeri örneklere (E1, E2) benzemekte.
+3. E-posta, hızlı ve kolay bir kazanc yolu teklif ediyor.",(bilinmiyor),"free book ! from # 1 best - selling financial author , robert allen"
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,8.26,"1. E-posta, yüksek kazanç potansiyeli ile ilgili teklifler içeriyor ve bu, dolandırıcılık ve spam örneklere benzer.
+2. E-posta, ""get rich quick"" sözleri ve yüksek kazanç garantileri içeriyor, bu tür e-postaların genellikle dolandırıcı veya spam olduğunu gösteriyor.
+3. E-posta, ""multi-level marketing"" terimi kullanmadı, ancak benzer örneklere göre, bu tür teklifler genellikle dolandırıcı veya spamdır.",(bilinmiyor),a proven wealth building system . - ( 9113 )
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,6.71,"1. Gönderen kontrolü: Gönderen bilinmiyor.
+2. E-postada bulunan işaretlere göre, metin ""save hundreds of dollars per month"" ifadesiyle bir para kazanma vaatini içeriyor.
+3. Benzer örnekler: [E1], [E2], [E3], [E4], [E5] e-postaları, benzer şekilde düşük faiz oranlı kredi teklifleri ve para kazanma vaatleri içeriyor.",(bilinmiyor),ad : rate increase
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,7.33,"1. E-posta, ""credit"" kelimesini içerir ve yeni kredi dosyası oluşturma konusunda bilgi sağlar.
+2. Benzer örneklerde (E1, E2, E3, E4) olduğu gibi, bu e-posta da kredi ve borç sorunlarını çözme teklifleri içerir.
+3. E-posta, genel bir reklam ve kredi ilgili bilgi sağlama haliyle şüpheli bir e-posta türüdür.",(bilinmiyor),create a new credit file legally in 30 days ! ! !
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,9.33,"1. E-posta, ""1-900"" numaralı bir telefon numarası ve ""1-888"" numaralı ücretsiz bir telefon numarası içeriyor, bu genellikle dolandırıcı veya reklam e-postalarında bulunur.
+2. E-posta, ""call now"" ve ""call today"" gibi isteksiz arama talepleri içeriyor.
+3. E-posta, ""find local singles"" ve ""locate the girl or guy of your dreams"" gibi dolandırıcı ifadeler kullanıyor. Bu, dolandırıcılık türünden şüpheli bir e-posta örneği [E1] ile benzer.",(bilinmiyor),call me tonight . . . . .
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,9.72,"1. E-posta, ""raquel's casino, inc."" adlı bir casino tarafından gönderilmiştir, ancak gönderen adresi bilinmiyor ve e-posta içeriğinde gerçek bir marka veya kurumun adı bulunmamaktadır.
+2. E-posta, ""win $ 300usd and a cruise"" gibi para ve rekreasyon teklifleri içerir, bu tür teklifler dolandırıcılık veya spam-reklam türünde e-postalara özgüdür.
+3. E-posta, ""join before month end to participate"" ve ""you will automatically be entered into the next drawing"" gibi istekler içerir, bu da dolandırıcılık e-postalarının genel özelliklerinden biridir.",(bilinmiyor),win $ 300usd and a cruise !
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,11.73,"1. E-posta, ""Email Administrator"" adlı bir gönderenle gelmektedir, bu ad gerçek bir kurumun adı olabilir ancak güvenilir bir gönderen değildir.
+2. E-posta, ""您的邮箱配额已满"" ve ""您的邮箱配额已满 这可能会导致您的邮箱故障或您可能无法再接收更多的电子邮件"" gibi metinler içerir, bu metinler genellikle oltalama saldırılarında kullanılır.
+3. E-posta, ""https://www.avast.com/antivirus"" bağlantı adresi içerir, bu genellikle sahte bir e-postanın bir parçası olarak kullanılır. Benzer örneklerde de olduğu gibi, bu e-posta oltalama türünden bir şüpheli e-posta olarak sınıflandırılabilir.",Email Administrator <>,=?utf-8?b?5pyA57WCIOitpuWRiiDnlLXlrZDpgq7ku7blrZjlgqjpmZDliLY=?=
+Nazario,1,0,GÜVENLİ,-,qwen,7.82,"1. E-posta, Alibaba.com'un gerçek bir markası ve alan adı üzerinden gönderildi.
+2. E-posta, Alibaba.com'dan gelen bir bildirim ve müşteri hizmetleri ile ilgili bilgiler içeriyor.
+3. E-posta, benzer örneklerde (E1, E2, E3, E4, E5) olduğu gibi şüpheli veya oltalama e-postaları benzeri özelliklere sahip değildir.",Moura Lee <feedbackservice@alibaba.com>,(Alibaba inquiry notification)Moura from spain has replied you
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,8.24,"1. E-posta ""Access Locked"" konusu ve ""Your Online Banking Has Been Suspended"" metni, hesabınızın kilitlendiği bir durumu ima ediyor.
+2. ""Unverified Email Address"" ve ""Invalid Home Address"" gibi hatalar belirtildi ve kullanıcıya bir bağlantı sunuldu (""Click Here And Restore Your Account""), bu tür bir istek genellikle oltalama e-postalarında bulunur.
+3. E-Posta, gönderen kontrolü için belirgin bir sorun bulunmadı, ancak benzer örneklerde (E1-E5) olduğu gibi, genellikle oltalama e-postalarında olduğu gibi, kullanıcıya bir bağlantı sunuluyor ve hesabının kilitlendiği bir durum belirtiliyor.",Truist Alerts <alertnotifications@message.truist-com>,Access Locked
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,8.06,"1. E-posta, gönderen kontrolü tarafından şüpheli bir gönderenle ilgili bilgi verilmedi.
+2. E-posta ""suspended"" ifadesi kullanıyor, bu ifade örneklere göre oltalama türünden e-postalara özgü bir ifadedir.
+3. E-posta, hesabınızın kapatılacağını ve güvenlik nedeniyle hesabınızın kullanımlarının kısıtlandığını belirtiyor, bu da örneklere benzer bir tehdit içeriyor.","""USAA""<online.banking.restricted@information.com>",Subscribed Alert: Important Notice On Your USAA Savings Account
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,8.43,"1. E-posta, HM & Customs adlı bir kurumun taklit edilmiş bir adresden gelmektedir.
+2. E-posta, bir ödeme geri çekme konusunda bilgi vermekle birlikte, kullanıcıya bir hesap bilgisi girmesini ve bilgileri doğrulamasını istemektedir.
+3. Bu tür e-postalar, genellikle kullanıcıların hesap bilgilerini veya şifrelerini paylaşmalarını isteyerek zararlı amaçlarla tasarlanmıştır. Bu nedenle, e-posta şüpheli olarak değerlendirilmelidir.","""HM & Customs"" <admin@satkarfincorp.com>",=?utf-8?B?0KLQsNGFIFJlZnVuZCDOndC1dyDOndC1c3PQsNaBZSDOkWxlcnQhOiA0OTYzNTcwMw==?=
+Nazario,1,0,GÜVENLİ,-,qwen,8.96,"1. E-posta, ""untangle@example.com"" adlı bir gerçek kurumdan gelmektedir ve gönderen kontrolü kesin bir şüpheye sahip değildir.
+2. E-postada ""spam quarantine"" ifadesi bulunmakla birlikte, bu ifade genellikle gerçek kurumların spam kontrolü için kullanıldığı için şüpheli değildir.
+3. Benzer örneklerdeki oltalama türündeki e-postalarda, gönderen adresleri şüpheli ve e-posta içeriği genellikle şifre veya hesap bilgisi istekleri içerdiği için bu e-posta güvenli görünmektedir.",untangle@example.com,Quarantine Digest
+Nazario,1,0,GÜVENLİ,-,qwen,7.94,"1. E-postada şifre veya ödeme ilgili ifadeleri bulunmamaktadır.
+2. E-posta, gerçek bir kurumdan (Super Jet Corporation INC.) ve gerçek bir iş konusu ile ilgili (USD bank transferi) gönderilmiş olup, dolandırıcılık örneklere benzer değildir.
+3. E-posta, gönderenin gerçek bir marka alan adı olduğunu göstermektedir (kbm@globalupside.com).",Account Payable <kbm@globalupside.com>,USD Bank Transfer Deposits - Remitted on 06/03/2019
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,8.52,"1. E-posta, gönderenin gerçek bir marka alanı olmadığı için şüpheli.
+2. E-posta, ""account access limited"" ve ""verify your information"" gibi ifadeler içeriyor, bu oltalama türünden e-postalara benzer.
+3. Benzer örneklere [E1], [E3], [E4] ve [E5] göre, gönderenin gerçek bir kurum değil ve e-posta, kullanıcıyı kendi hesabınıza erişim vermesi için yönlendirmeye yönlendirmeye teşvik ediyor.","""Notice!"" <donotreply@support.co.us>",Important Notice!!
+Nazario,1,0,GÜVENLİ,-,qwen,10.02,"1. Gönderen kontrolü: E-posta, gerçek WeTransfer alan adını kullanmaktadır.
+2. E-postada bulunan işaretlere göre, e-posta bir ürün örneği ve spesifikasyon dosyasını içerir ve bir bağlantı iletecektir. Bu, WeTransfer'in normal davranışına uygun.
+3. Benzer örnekler: Verilen benzer örnekler, WeTransfer tarafından gönderilen e-postaların genellikle güvenli olduğunu göstermektedir. Örneklerde belirtilen bağlantılar ve içerikler, WeTransfer'in normal e-postalarında olduğu gibi, kullanıcıya dosya indirme isteği yapmaktadır. Bu nedenle, incelememiz gereken şüpheli özellikler yoktur.",WeTransfer <no_reply@wetransfer.com>,Jeanette.rodriguez@mcft.com sent you Product Sample and Specifications.pdf via WeTransfer
+Nazario,1,0,GÜVENLİ,-,qwen,7.15,"1. Gönderen kontrolü sonucunda, e-postanın gönderen adresi gerçek bir marka alanıdır.
+2. E-postada bulunan anahtar ifadeler bulunmamaktadır.
+3. Benzer örneklerdeki oltalama türündeki e-postalarda, gönderen adresleri şüpheli ve anahtar ifadeler bulunmaktaydı. Bu e-posta ise, gönderen adresi gerçek bir marka alanıdır ve anahtar ifade bulunmamaktadır.",update account <update_a0011@outlook.com>,Documents from Barbara Hopkins
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,11.05,"1. E-posta, ""Mailbox Admin"" adlı bir gönderenle gelmektedir ve alan adı ""remax-taxi-ist.com"" olarak belirtilmiştir. Bu alan adı, genellikle gerçek kurumların kullandığı standart alan adlarıyla karşılaştırıldığında daha kısa ve basitleştirilmiş görünmektedir.
+2. E-posta, ""Mail Quota"" ve ""Mailbox usage"" gibi ifadeleri içerir, bu tür ifadeler genellikle oltalama e-postalarında bulunur.
+3. [E1], [E2], [E3], [E4] ve [E5] örneği, benzer oltalama e-postalarını göstermektedir. Bu örneklerde de, gönderen adı, alan adı ve e-posta içeriği genellikle oltalama e-postalarında olduğu gibi benzer özelliklere sahiptir.","""Mailbox Admin"" <info@remax-taxi-ist.com>",=?utf-8?q?=E2=9C=89Your_mailbox_is_full_=28Upgrade_now=29?=
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,7.02,"1. E-postada ""Click Link To Validate Your Account"" ifadesi bulunuyor, bu oltalama türünden e-postalara benzer.
+2. Gönderenin gerçek bir kurumun adı olup olmadığı kesinlikle belirtilmemiş, bu nedenle şüpheli.
+3. Benzer örneklere göre, ""validate your email account"" ifadesi ve tıpkı benzer örneklere benzer şekilde bir link isteği olduğu görülmektedir.","""Lazzara, Kayla Marie"" <kmlazzar@iu.edu>",RE: Helpdesk Information
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,7.33,"1. Gönderen kontrolü: Gönderen ""Chase 0nline"" olarak belirtilmiş ancak e-posta adresi ""I-Kuli@t-online.de"" şeklinde olup, bu adres gerçek Chase sistemlerinden biri değildir.
+2. Benzer örnekler: [E1], [E2], [E3], [E4] ve [E5] örneklerinde de benzer türde oltalama e-postalar görülmekte, bu nedenle gönderinin şüpheli olduğu düşünülür.","""Chase 0nline"" <I-Kuli@t-online.de>",Your Debit Card Transaction Refunds.
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,9.56,"1. Gönderen adresi ""BlockChain <adham@mmkalmehmadi.com>"" şeklinde olup, bu bir şüpheli gönderen adresidir.
+2. E-postada ""Attention: jose Kindly Update your BlockChain Wallet to the Lastest Version soon you will not be able to access your wallet"" ve ""Update Your Wallet"" gibi ifadeler bulunuyor, bu ifadeler genellikle oltalama e-postalarında bulunur.
+3. Bu e-posta, [E1], [E2], [E3], [E4] ve [E5] benzer örneklere benzer şekilde bir hesap güncellemesi talep ediyor ve kullanıcıyı tıkanma riskine maruz bırakmak için bir URL sunuyor.",BlockChain <adham@mmkalmehmadi.com>,Update Your BlockChain Wallet !!
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,7.33,"1. E-posta, ""verify your identity"" ifadesi ve bir bağlantı içeriyor, bu oltalama türünden e-postalara benzer.
+2. Gönderen adresi gerçek bir marka adı olmadığı için şüpheli.
+3. Benzer örneklere [E1], [E2], [E3], [E4], [E5] atıf yoluyla uyma.",RAKUTENN <azuzo@terra.com.br>,#CASE: X789703648
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,5.21,"1. E-posta ""Password Has Expired"" ifadesi içeriyor, bu oltalama örneklere benzer.
+2. ""CLICK HERE To Verify"" tıpkı örnekteki gibi bir bağlantı içeriyor.
+3. Gönderen adresi, örneklere benzer bir kurum adı taşıyor.",Lawrence McDevitt <lmcdevitt@ohlone.edu>,RE: HELP_DESK_SERVICE
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,6.89,"1. Gönderenin alan adı oltalamada sık görülen '.gq' uzantısını kullanıyor.
+2. E-postada ""urgent"" ifadesi ve ""https://wetransfer.com/downloads"" bağlantı bulunuyor, bu oltalama türünden e-postalara benzer.
+3. [E1] ve [E2] örneğlerinde de benzer ifadeler ve bağlantılar bulunuyor.",Maria Pietrygas <procure@einihutintl.gq>,Re: New Order Inquiry
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,9.34,"1. E-posta, ""Financial Courier"" rolüne başvurma talebi içeriyor, bu genellikle dolandırıcılık amaçlı yasalara uymayan faaliyetlerle ilgilidir.
+2. Gönderen e-posta adresi, kısa ve karmaşık alan adı ile (247realmedia.com) sahte görünümü taşır.
+3. [E1] ve [E2] örneklerinde olduğu gibi, e-posta, miras veya iş teklifi ile para veya kişisel bilgi isteyen dolandırıcılık türünden bir e-posta örneği benzeri görünümü taşır.",Steve Casey <balakris@247realmedia.com>,Job offer
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,6.43,"1. E-posta ""URGENTLY"" anahtar ifadesi içeriyor.
+2. Para transferi teklifi içeriyor.
+3. [E1], [E2], [E3], [E4], [E5] benzer örneklere göre dolandırıcılık türü bir e-posta.",boris sladkovainfo <carl.johnson1@virgilio.it>,GET BACK TO ME URGENTLY
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,5.79,"1. E-posta, ""URGENT BUSINESS PROPOSAL"" konusu ve ""URGENT"" ifadesiyle acil bir durumu ima ediyor.
+2. Para transferi talebi ve ""beneficiary"" ifadesi dolandırıcılık türünden e-postalara özgü özelliklerdir.
+3. Benzer örneklere göre, gönderenin gerçek bir kurum veya kuruluş olma olasılığı düşük ve e-posta, dolandırıcılık türünden bir şüpheli e-posta.",Sullivan Richard <r.richard10@hotmail.com>,From Mr.Sullivan
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,7.33,"1. E-posta, ""Nigerian dolandırıcılık"" türünden benzer örneklerle karşılaştırıldığında benzer bir yapısı taşımaktadır. 
+2. E-postada para transferi ve miras konuları vurgulanmaktadır.
+3. Gönderen e-posta adresi, gerçek bir marka alan adı olmadığı için şüpheli görünmektedir.",kit1win@tiscali.cz,Hello
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,8.52,"1. E-posta, ""dolanma"" (Nigerian) türünden şüpheli örneklere benzer. Gönderenin adı ve konusu ""help"" (yardım) talebiyle ilgili.
+2. E-posta, miras ve finansal destek talepleri içeriyor, bu dolandırıcılık türünden e-postaların genellikle içerdiği benzer özelliklere sahip.
+3. E-posta, gerçek bir kurum veya marka alan adı olmadığı için şüpheli.",MR. LAURENT DESIRE KABILA (JUNIOR) <laurentjunior_kabila@arabtop.net>,MY FAMILY NEEDS YOUR HELP
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,6.65,"1. E-posta, miras ve yatırımla ilgili vaatler içeriyor.
+2. Gönderen e-posta adresi şüpheli ve gerçek bir marka alanına sahip değil.
+3. Benzer örneklerde de benzer türde dolandırıcılık e-postaları olduğu görülmektedir.",MR.TONY MALICK . <tony_o5@fsmail.net>,FROM MR.TONY MALICK .....
+Nigerian_Fraud,1,0,GÜVENLİ,-,qwen,7.03,"1. E-postada kart/ödeme ifadesi bulunmakla birlikte, istekte belirgin bir para transferi veya kimlik bilgisi talebi bulunmamaktadır.
+2. Gönderenin gerçek bir marka alan adı olduğu belirtilmiştir.
+3. E-posta, iş ortaklığı arayışına yönelik olup dolandırıcılık örneklere benzerlik göstermemektedir.",Edward Garner <edwardgarner2@virgilio.it>,My name is Edward Garner
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,8.64,"1. E-posta, ""beneficiary"" ifadesi içeriyor, bu dolandırıcılık türünden e-postaların genellikle kullanılan anahtar ifadelerinden biridir.
+2. E-posta, miras ve para transferi vaatleri içeriyor, bu tür dolandırıcılık e-postalarının temel özellikleri arasındadır.
+3. E-posta, [E1], [E2], [E3], [E4] ve [E5] benzer örneklere benzer şekilde kişisel bilgileri ve para transferi vaatleri içeriyor.",From Ms. Johana <johjohnpaul30@walla.com>,From Ms. Johana
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,7.46,"1. E-posta, ""million US dollars"" ifadesini içeriyor, bu dolandırıcılık örneklere benzer.
+2. ""IMMEDIATELY"" ifadesi e-postada bulunuyor, bu da dolandırıcılık türünden bir e-posta tipi.
+3. E-posta, miras ve para transferi vaatleri içeriyor, bu da [E1] örneğine benzer.",MISS KRA ROSALINE <krarosa00@yahoo.com>,HELLO
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,6.95,"1. E-posta, Nigerian dolandırıcılık türünden benzer örneklerle benzer, bir vebadan alındığı belirtilmiştir.
+2. E-posta, miras ve para transferi vaatleri içerir.
+3. Gönderen e-posta adresi, genel bir hotmail adresi olduğu için güvenilir değil.",charlesmill15@hotmail.com,BUSINESS ASSISTANCE
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,8.36,"1. E-postada para transferi ve miras vaatleri bulunuyor (""$12,500,000"" ve ""17% komisyon"").
+2. E-posta acil ve önemli bir durumu ima ediyor (""URGENT"").
+3. Benzer örneklerde olduğu gibi, gönderenin gerçek kimliğini ve amaçlarını belirleyemiyor. Bu tür e-postalar genellikle sahte kimliklerle gönderilen dolandırıcılık mesajlarıdır.",HARRISON FELISSA <felissajen115@hotmail.fr>,FROM: MISS FELISSA JENNY HARRISON
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,9.16,"1. E-posta ""URGENT RESPONSE NEEDED"" başlıklı ve ""URGENT"" ifadesi içeriyor, dolandırıcılık e-postalarında sıkça kullanılan bir taktiktir.
+2. E-posta, miras ve büyük miktarda para transferi konusunda teklif veriyor, bu tür dolandırıcılık e-postalarının karakteristik özelliklerinden biridir.
+3. E-posta, gerçek bir kurum veya bankanın gönderdiği olası bir taktiktir ve benzer örneklerde olduğu gibi, dolandırıcılık e-postaları gibi davranıyor.",MR. BRIAN SMITH <briansmith650@adinet.com.uy>,URGENT RESPONSE NEEDED
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,6.55,"1. E-posta ""urgent"" ifadesi ve milyon dolar tutarında para talebi içeriyor, bu özellikler [E1], [E2], [E3], [E4] ve [E5] örneklerine benzer.
+2. Gönderenin gerçek bir marka alanı olmadığı gözlemleniyor.",mark lee <mrmarklee2007@poczta.pf.pl>,From Mr. MARK LEE
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,11.42,"1. E-posta, ""Nigerian"" dolandırıcılık örneğiyle benzerlik gösterir, çünkü aynı türdeki e-postalarda da aynı türdeki para ve kimlik bilgisi istekleri bulunmaktadır.
+2. E-postada ""bank account"", ""urgent"", ve ""$25,000,000"" ifadeleri bulunuyor, bu dolandırıcılık türünden e-postalarda sıkça görülen anahtar ifadelerdir.
+3. E-posta, ""DR. Yetunde Bassey"" adlı bir banka yöneticisi tarafından gönderildiğini iddia ediyor, ancak bu isim ve e-posta adresi gerçek bir banka yöneticisi olma olasılığını ortadan kaldırıyor. [E1] ve diğer örnekler de aynı türdeki dolandırıcılık e-postalarını gösteriyor.",Yetunde Bassey <yetunde@mail2world.com>,PROJECT INTEREST.
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,8.69,"1. E-posta, ""joint venture"" ve ""partnership"" gibi işbirliği teklifleri içeriyor, bu tür e-postalar dolandırıcılık örneklere benzer.
+2. Gönderenin kimliği ve bilgileri belirsiz, gerçek bir kurum veya kişiden geldiğini doğrulayan belirgin bir kanıt bulunmuyor.
+3. E-posta, gönderenin hükümet pozisyonunda olduğunu ve büyük bir miktarda para ile ilgili bilgi sahibi olduğunu belirtiyor, bu da dolandırıcılık türüne işaret ediyor.",onyemauk2004 <onyemauk2004@voila.fr>,JOINT VENTURE FOR PARTNERSHIP.
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,8.84,"1. E-posta, miras ve para transferi vaatleri içeriyor.
+2. Gönderen, [E1], [E2], [E3], [E4] ve [E5] örneklerde olduğu gibi, bir banka çalışanı olarak kendini tanımlıyor, ancak gerçek bir banka veya kurumdan gönderilen bir e-posta değildir.
+3. E-posta, ""CONCORDE PLANE CRASH"" gibi gerçek bir olay kullanarak kendi hikayesini zenginleştiriyor, dolayısıyla dolandırıcılık örneği benzeri olabilir.",Dr.Edward Hilson. <konsult_edward@yahoo.co.uk>,I WISH TO CONTACT YOU ON THIS ISSUE.
+SpamAssasin,1,1,ŞÜPHELİ,spam-reklam,qwen,7.49,"1. E-posta, ""Winners"" anahtar ifadesi içeriyor ve benzer örneklere göre bir piyango veya ödül vaatleriyle ilgili bir spam e-postası olabilir.
+2. Gönderen adresi gerçek bir marka adı olmadığı için şüpheli.
+3. E-posta, piyango veya yatırım fırsatı vaatleriyle kullanıcıyı yanıltmaya çalışan bir spam reklamı.","""Shelly"" <audrarsl@cerebro.icb.usp.br>",FW: Washington wire
+SpamAssasin,1,1,ŞÜPHELİ,spam-reklam,qwen,8.1,"1. E-posta, ""ADV: Extended Auto Warranty"" konusu ve ""Protect yourself with an extended warranty"" metni dolandırıcılık türünden e-postalara benzer.
+2. E-postada ""CLICK HERE"" ve ""Visit our website"" gibi bağlantılar yer alıyor, bu tür e-postaların genellikle spam-reklam olduğu gösteriyor.
+3. Benzer örneklerde (E1-E5) olduğu gibi, bu e-posta da ""FREE Quote"", ""BUY DIRECT"", ""Protect your financial well-being"" gibi ifadeler kullanıyor.",mort239o@pac5.westernbarge.com,ADV: Extended Auto Warranty -- even older cars... nhaxn
+SpamAssasin,1,1,ŞÜPHELİ,spam-reklam,qwen,7.07,"1. E-posta, miras, piyango gibi vaatler içeriyor.
+2. E-posta, tanınmayan kaynaklardan toplu olarak gönderildiği bellidir.
+3. Benzer örneklerde (E1-E5) ayni türde e-postalar görülmüştür.","""IQ - The Milner Group"" <mg@insurancemail.net>",3 Year Annuity...5% Guaranteed Rate
+SpamAssasin,1,1,ŞÜPHELİ,spam-reklam,qwen,6.13,"- E-posta, ""credit cards"" ve ""million dollars"" gibi para/ödül ifadeleri içeriyor.
+- Gönderen adresi gerçek bir marka alanı olmadığı için şüpheli.
+- Benzer örneklerde de benzer ifadelerin olduğu gözlemleniyor.","""hdwr.Rui Santos"" <jatoy73@bigpond.com>","Last time you spent $25 did u make $100,000,s? Well this time you will. wju"
+SpamAssasin,1,1,ŞÜPHELİ,spam-reklam,qwen,7.79,"1. E-posta, ""10 million fresh email addresses"" ve ""TRY BEFORE YOU BUY"" gibi ifadelerle dolu, bu benzer örneklerde de olduğu gibi bir spam reklamıdır.
+2. Gönderen e-posta adresi gerçek bir marka veya kurumdan olmayan bir adres.
+3. E-posta, e-posta listelerinin satıldığı bir teklif içeriyor, bu da benzer örneklerde olduğu gibi dolandırıcı bir eylemdir.",POWERMAN10MILLION@hotmail.com,10 million fresh email addresses sent to you on CD for FREE!!! TRY BEFORE YOU BUY!!
+SpamAssasin,1,1,ŞÜPHELİ,spam-reklam,qwen,6.94,"1. Gönderen adresi gerçek bir kurumun ailesi olma olasılığı düşük.
+2. E-postada ""Click Here To be removed Click here"" ifadesi, genellikle spam e-postalarda bulunan bir tipik tıklatma.
+3. Benzer örneklere [E1], [E2], [E3], [E4] ve [E5] göre, gönderen ve metin tipi şüpheli e-postalarla benzer.",jim342u47@saintmail.net,`*Mortgage Approved !!*`
+SpamAssasin,1,1,ŞÜPHELİ,spam-reklam,qwen,6.55,"1. Gönderenin gerçek bir marka alan adı olmadığı.
+2. E-postada ""sexually curious teens"" ve ""eating each other out on webcam"" gibi açıkça seks ilgili ifadeler bulunuyor.
+3. E-posta, ""see you soon baby"" ve ""wink"" gibi kişisel bir ton kullanarak okuyucuya yaklaşıyor, bu tür ifadeler genellikle spam e-postalarında bulunur.",Veronica Styles <lkqyvstyles@site-personals.com>,link to my webcam you wanted
+SpamAssasin,1,1,ŞÜPHELİ,spam-reklam,qwen,8.3,"1. E-posta, ""HARDCORE PORN MOVIES"" gibi açık şekilde pornografik içerik ilan eden ifadeler içeriyor.
+2. Bağlantılar, ""http://www.froggyhost.com/clubs/sexmoviestoday/"" ve ""http://www.froggyhost.com/clubs/remove/"" gibi potansiyel olarak spam veya phishing amaçlı olabilir.
+3. Benzer örneklerde (E1, E2, E3, E4, E5) olduğu gibi, bu tür e-postalar genellikle pornografik içerik ve spam kampanyaları ile ilişkilidir.","""felipepunk"" <felipepunk@hotmail.com>",(no subject)
+SpamAssasin,1,1,ŞÜPHELİ,spam-reklam,qwen,11.65,"1. E-posta, ""GREENCARD 2004 EKLN KAIRMAYIN"" adlı bir gönderenle gelmektedir, bu gönderen gerçek bir marka veya kurum gibi görünmüyor.
+2. E-posta içinde JavaScript kodları bulunmakta, bu genellikle tarama amaçlı veya tıklanarak zararlı kodlar çalıştırılmasına izin vermek için kullanılır.
+3. E-posta, ""http://thinkgeek.com/sf"" bağlantı adresi içeriyor, ancak bu bağlantı ThinkGeek'e yönlendirir, bu tür tarama ve yönlendirme e-postaları genellikle spam veya dolandırıcı amaçlıdır. [E1] ve [E2] örneklerinde olduğu gibi, bu tür e-postalar genellikle spam veya dolandırıcıdır.","""GREENCARD 2004  EKLN  KAIRMAYIN"" <barisb@kolaymail.com>",[WM] greencard 2004 ekiliini karmayn
+SpamAssasin,1,1,ŞÜPHELİ,spam-reklam,qwen,9.77,"- E-posta, ""Adult Ads"" konusu ile gönderilmiş ve benzer örneklere göre spamingin bir örneğidir.
+- E-posta içeriğinde ""Adult Classifieds"" ve ""online catalog of articles, adult toys"" gibi spaminge yönelik ifadeler bulunmaktadır.
+- Benzer örneklerde de benzer spaminge yönelik içerikler bulunmuştur.",lilblackraincloud@yahoo.com,Adult Ads
+SpamAssasin,1,1,ŞÜPHELİ,dolandırıcılık,qwen,9.92,"1. E-posta, ""Nigerian"" dolandırıcılık türünden benzer örneklerle benzer şekilde, bir hükümet yetkilisini taklit ederek para veya bilgi istemeye çalışıyor.
+2. E-postada ""US$29,200,000.00"" gibi büyük miktarda para ve ""confidential co-operation"" ifadeleri, dolandırıcılık türünden e-postalara özgü işaretlerdir.
+3. [E1] ve [E2] örneklerinde olduğu gibi, gönderenin gerçek bir yetkili olup olmadığını doğrulayamadığımızda, bu tür e-postalar dolandırıcılık olasılığına sahiptir.",Ayanda Maredi <abbyman@mweb.co.za>,MY PLEA FOR ASSISTANCE PLEASE
+SpamAssasin,1,1,ŞÜPHELİ,spam-reklam,qwen,7.38,"1. E-posta, ""Toners and inkjet cartridges for less"" konusu ve benzer örneklere benzer bir metin içeriyor.
+2. E-posta, ""http://xent.com/mailman/listinfo/fork"" bağlantı adresi içeriyor, bu genellikle abone listeleriyle ilgili olabilir.
+3. E-posta, ""Toners 2 Go"" markası ve benzer örneklere benzer bir kampanya metni içeriyor.","""Kylie"" <wa9sywc1k06312@yahoo.com>",Toners and inkjet cartridges for less....          BLOEEYS
+SpamAssasin,1,0,GÜVENLİ,-,qwen,7.79,"- Gönderenin gerçek bir marka alan adı olduğunu belirtiyor.
+- E-postada bulunan bağlantı, genel bir internet erişim sitesine yönlendiriyor ve dolaylı yoldan para kazanma teklifleri içermez.
+- Benzer örneklerde (E1, E2, E3, E4, E5) genellikle dolandırıcı veya spam içerikleri bulunuyor. Bu e-posta ise genel bir İnternet erişim hizmeti hakkında bilgi veriyor ve dolaylı yoldan para kazanma teklifleri içermez.",IA@IA.Net,Market Internet Access - No Investment Needed
+SpamAssasin,1,0,GÜVENLİ,-,qwen,6.68,"- E-posta, SponsorClick News adlı bir gerçek kurumdan gelmektedir.
+- İçerik, sponsorlukla ilgili bilgi ve haberler içeren bir kampanya e-postasıdır.
+- Benzer örneklerde (E1, E3, E4) benzer içeriklerin normal e-posta olarak kabul edildiği görülmektedir.",SponsorClick News <news@sponsorclick.com>,July 2002: Veuve Clicquot > SponsorRating >  X-Treme Sponsorship Alert > Tidbits > Special Offers > ...
+SpamAssasin,1,1,ŞÜPHELİ,dolandırıcılık,qwen,9.37,"1. E-posta, ""Extreme Power Plus"" gibi bir ürünü ve onun aklını karıştırıcı bir şekilde kullanımını ve etkilerini teyit eden kişisel deneyimleri içeriyor.
+2. E-posta, ""Lose 11 Pounds In 7 Days"" başlıklı ve benzer örneklere benzer, genellikle hızlı ve kolay bir şekilde kilo verme sözü veren e-postalar.
+3. E-posta, tıbbi bir ürünün ve onun etkilerinin teyit eden kişisel deneyimleri içeriyor, bu da dolandırıcılık türünden şüpheli bir e-posta olabilir.",davidk348@gateway.net,Lose 11 Pounds In 7 Days                   IML
+SpamAssasin,1,1,ŞÜPHELİ,dolandırıcılık,qwen,7.27,"1. E-posta ""Urgent"" ifadesi ve acil durum yaratmaya çalıştığı belirtilmiştir.
+2. E-posta, miras ve politik kriz durumunu kullanarak yasa dışı bir para transferi teklifi sunmaktadır.
+3. Benzer örneklere [E1], [E2], [E3], [E4], [E5] atıf yoluyla başvurulmuştur.","""MRS. REGINA ROSSMAN."" <rossman502002@yahoo.com>","Urgent business proposal,"
+CEAS_08,0,0,GÜVENLİ,-,qwen,7.0,"- E-posta, Python geliştiriciler listesindeki bir tartışmaya yanıt veren bir mesajdır.
+- Gönderen adı ve e-posta adresi gerçek bir Python geliştiricisinin olduğu göze çarpar.
+- Benzer örneklerde de olduğu gibi, bu tür mesajlar genellikle listelerdeki diğer geliştiricilere bilgi vermek veya görüşlerde bulunmak amacıyla gönderilir.","""Phillip J. Eby"" <moe@telecommunity.com>",Re: [Python-Dev] PEP 365 (Adding the pkg_resources module)
+CEAS_08,0,0,GÜVENLİ,-,qwen,8.23,"- E-posta, bir teknik konuyla ilgili ve gerçek bir kurumdan (Xecunet, Inc.) gönderildi.
+- Gönderen e-posta adresi, bir gerçek kurumun (Xecu.net) alan adıyla uyumlu.
+- Benzer örneklerde (E1, E2, E3, E4) benzer bir tonlamada ve gönderen kontrolüyle normal e-postalar görüldü.
+- E-postada telif hakkı ifadesi bulunmadı ve şüpheli bir bağlantıya da tıklanmadı.",Andy Dills <kngf@xecu.net>,Re: Time to make multi.uribl.org optional rather than default?
+CEAS_08,0,0,GÜVENLİ,-,qwen,5.84,"- E-posta, benzer örneklerde olduğu gibi, genellikle kişisel veya grup yazışmalarına benzer.
+- Gönderenin gerçek bir marka alanı olmadığı gözlemlenmiştir.
+- E-postada bulunan bağlantı, sahte bir web sitesine yönlendirme riski yoktur.",Richard Brophy <ntcpvwafdembd@eircom.net>,Re: [ie-rant] Re: Name that tune...
+CEAS_08,0,0,GÜVENLİ,-,qwen,6.34,"- E-posta, openSUSE ile ilgili bir konu hakkında bir teknik tartışmada bulunuyor.
+- Gönderen adresi, genel olarak beklenen openSUSE kullanıcı grupları adreslerine benzemiyor.
+- Benzer örneklerde benzer bir konu ve formatta e-postalar görülmektedir.",Sven Panne <lwjx_hpvcq@yahoo.com>,AW: AW: [opensuse] Logitech MX Revolution middle mouse button doesn't work
+CEAS_08,0,0,GÜVENLİ,-,qwen,6.43,"1. E-posta, akademik bir konu ile ilgili ve gerçek bir kurumdan (Northeastern Illinois University) gönderildi.
+2. E-postada istenen bilgi ve yardım isteği, akademik bir soru sorma ve bilgi paylaşımı amacıyla yazılmış.
+3. Benzer örneklerde olduğu gibi, bu tür istekler genellikle güvenli ve gerçek bir kaynağın girdiği gösterilir.",Rich <bf-jgyyrpxggb@neiu.edu>,[UAI] Discrete Parents of Continuous Nodes
+CEAS_08,0,0,GÜVENLİ,-,qwen,5.97,"- E-posta, Python geliştiricileri arasında normal bir tartışmaya benzer.
+- Gönderen e-posta adresi, gerçek bir marka alan adı olmadığı için şüpheli görünmüyor.
+- Benzer örneklerde de GÜVENLİ etiketi olduğu görülmektedir.",Nick Coghlan <uytankmf@gmail.com>,Re: [Python-3000] Using range()
+CEAS_08,0,0,GÜVENLİ,-,qwen,7.36,"1. E-posta gönderenin adrese ve konusuna bakıldığında, genel bir soru soran ve diğer kullanıcılarla iletişim kurmak için yazılmış bir mesaj olduğu görülmektedir.
+2. E-postada önemli bir istek veya tehdit bulunmamaktadır.
+3. Benzer örneklerde olduğu gibi, bu tür genel sorular soran ve diğer kullanıcılarla iletişim kurmak için yazılmış e-postalar genellikle güvenli olarak kabul edilir.",Teruel de Campo MD <kcdueo@attglobal.net>,[opensuse] Logitech Orbit AF webcam anybody?
+CEAS_08,0,0,GÜVENLİ,-,qwen,7.53,"1. E-posta, PACE Üniversitesi'nin (www.pace.edu) bir bildirimi içeriyor ve gerçek bir kurumdan geldi.
+2. E-posta, önemli bilgileri ve işlem zamanlarını belirtiyor, bu tür bilgiler genellikle gerçek kurumlardan gelir.
+3. E-posta, benzer örneklerde (ör. [E2], [E3], [E4], [E5]) olduğu gibi, genel bilgilere ve etkinliklere dair bilgi veriyor.",Nicholas Mitchell <vepvubtvs@pace.edu>,Important Information for Graduating Students for May 2008!
+CEAS_08,0,0,GÜVENLİ,-,qwen,8.59,"1. E-posta, bir teknik listeye gönderilmiş ve konu satırı, listeye gönderilen bir konu hakkında bilgi vermektedir.
+2. Gönderen adı gerçek bir isim gibi görünmektedir, ancak e-posta adresi şüpheli görünmektedir.
+3. E-postada herhangi bir şüpheli bağlantı veya istek bulunmamaktadır.
+4. Benzer örneklerde, bu tür e-postalar genellikle teknik destek talepleri veya konu hakkında bilgi verme amacıyla gönderilir.","""David C. Rankin"" <vhdicqcdjjo@suddenlinkmail.com>",Re: [opensuse] Extensive disk i/o at startup (10.3)(rephrased posting)
+CEAS_08,0,0,GÜVENLİ,-,qwen,6.3,"- E-posta, Python geliştiriciler listesine ait ve benzer örneklerde olduğu gibi normal bir tartışmaya benzer.
+- Gönderen adresi, Python projesinin bir parçası olan bir kişinin adresi gibi görünüyor.
+- E-postada herhangi bir şüpheli ifade veya bağlantı bulunmamaktadır.",Antoine Pitrou <slvkzycy@pitrou.net>,Re: [Python-Dev] Warn about mktemp once again?
+CEAS_08,0,0,GÜVENLİ,-,qwen,6.25,"1. E-posta, ""ilo@cems.uvm.edu"" adlı gerçek bir adresden gelmektedir.
+2. E-posta, iş tekliflerini ve akademik pozisyonları ilan etmek için tipik bir benzer örnektir.
+3. E-posta, tıpkı verilen örneklerde olduğu gibi, bilgilendirme ve başvuru yönergeleri içerir.",Xindong Wu <ilo@cems.uvm.edu>,[UAI] Computer Sci Faculty Position(s) at U of Vermont (Applications by 1/23/06)
+CEAS_08,0,0,GÜVENLİ,-,qwen,7.15,"1. E-posta, Python geliştirme listesindeki bir tartışmaya yanıt vermektedir.
+2. Gönderen e-posta adresi, genel olarak şüphelenilmez bir formatta olup, benzer örneklerde olduğu gibi normal bir e-posta gönderimi gibi görünmektedir.
+3. E-postada bulunan bağlantı, genel bir web sitesine yönlendirme olup, şüpheli bir eylem göstermemektedir.",Lennart Regebro <hyiffbi@gmail.com>,Re: [Python-3000] u'text' as an alias for 'text'?
+CEAS_08,0,0,GÜVENLİ,-,qwen,7.49,"1. E-posta, Amazon'dan gelmiş ve gönderenin gerçek bir marka alan adı olduğunu gösteriyor.
+2. E-posta, Amazon'un normal kampanya e-postalarından biri ve telif hakkı olan kitaplar hakkında bilgi veriyor.
+3. E-posta benzer örneklere (E1, E4, E5) göre güvenli bir e-posta olup, dolandırıcılık veya spam içermiyor.","""Amazon.com"" <xgnnx-mhmt@amazon.com>",Explore Eclipse at Amazon.com
+CEAS_08,0,0,GÜVENLİ,-,qwen,6.88,"1. E-posta, teknik bir konu ve metin içeriyor ve benzer örneklerde olduğu gibi bir reklam veya dolandırma içeriği bulunmuyor.
+2. Gönderen adresi, genel bir e-posta adresi olduğu için şüphelenilmez.
+3. E-postada bulunan bağlantı, sahte bir web sitesi oluşturmaya yönelik bir işaret değil.",Juan Miscaro <obao_fb@yahoo.ca>,Re: maidrop error: Unable to open mailbox (why?)
+CEAS_08,0,1,ŞÜPHELİ,dolandırıcılık,qwen,7.88,"1. E-posta, ""Nice girl like to chat"" spam türünden bir spam e-postasının örneğine benzer.
+2. E-posta, dolandırıcıların genellikle kullanmakta olan benzer ifadeler içeriyor.
+3. [E2] örnekten benzer ""Hello! I am bored this evening. I am nice girl that would like to chat with you."" ifadesi bulunuyor.",Anders Norrbring <wluhe@norrbring.se>,"SV: ""Nice girl like to chat"" spam"
+CEAS_08,0,0,GÜVENLİ,-,qwen,6.93,"1. Gönderen adresi gerçek bir Python projeleri kurumunun adresi.
+2. E-posta, projenin ilerlemesine ilişkin normal bir tartışmadır.
+3. E-posta ve benzer örneklerdeki benzeri e-postaların içeriği, projenin yönetimine ilişkin planlama ve zamanlamalar hakkında bilgi vermektedir.",Barry Warsaw <pjaxq@python.org>,Re: [Python-Dev] 2.6 and 3.0 project management
+CEAS_08,0,1,ŞÜPHELİ,spam-reklam,qwen,9.64,"1. E-postada bulunan bağlantılar, çeşitli ürünleri teklif eden reklam bağlantılarıdır.
+2. Gönderen adresi, şüpheli bir e-posta adresi olduğu gibi görünmektedir.
+3. Benzer örneklerde (E1, E2, E4, E5) benzer türde reklam e-postaları bulunmaktadır.","""eCOST.com HotSheet"" <zmdzmeeb@e-cost.com>",JVC 30GB HD Camcorder $284 . LCD Photo Frame $11 . Nikon 5MP $74
+CEAS_08,0,0,GÜVENLİ,-,qwen,7.21,"E-posta, gönderen ve benzer örneklerde belirgin bir şüpheli veya dolandırıcı içeriği bulunmadı. Gönderen Per Jessen, genellikle opensuse listesindeki bir üye olarak tanınan bir kişi ve e-posta içeriği genellikle teknik konularla ilgili tartışmalara dayanmaktadır. Benzer örneklerde de aynen benzer bir konu ve tonu gözlemlenmiştir.",Per Jessen <uee@computer.org>,Re: [opensuse] [OT] How much power does a PC really consume?
+CEAS_08,0,0,GÜVENLİ,-,qwen,5.61,"- E-posta, Apache SpamAssassin projesinden gelen bir bug raporudur.
+- Gönderen adresi, projenin issues sisteminde olduğu için şüphelenilmez.
+- Benzer örneklerde de benzer bir yapıya sahip normal e-postalar bulunmaktadır.",qydlqcws-iacfym@issues.apache.org,[Bug 5816]  New: AWL AutoWhiteList
+CEAS_08,0,0,GÜVENLİ,-,qwen,8.79,"1. Gönderen kontrolü kesin bir karar vermedi, ancak gönderen e-posta adresi gerçek bir marka alanına sahip görünmüyor.
+2. E-postada bulunan bağlantı, tanınan bir web sitesine (www.taniquetil.com.ar) yönlendiriyor ve genel bir forum veya liste iletişimi gibi bir içerik içeriyor.
+3. Benzer örneklerde, gönderenler genellikle gerçek kurumların veya bültenlerin adreslerine sahip ve genellikle bilimsel veya teknik konularda iletişime geçen gerçek kişilerdir. Bu e-posta da benzer örneklerle uyumlu.",Facundo Batista <zopkrbwbxubyox@gmail.com>,Re: [Python-3000] Removal of os.path.walk
+CEAS_08,0,0,GÜVENLİ,-,qwen,7.12,"- E-posta, Python projesine ilişkin bir tartışmaya yanıt veren bir teknik içeriktedir.
+- Gönderen ve konu başlığı, benzer örneklerde olduğu gibi, Python projesine ait konularda normal bir tartışmaya işaret eder.
+- E-postada tespit edilen bağlantı, Python projesinin bir forum adresidir ve şüpheli bir etkinlik göstermemektedir.","""Stephen J. Turnbull"" <xjzvfpw@xemacs.org>",Re: [Python-3000] Recursive str
+CEAS_08,0,0,GÜVENLİ,-,qwen,7.23,"- E-posta, OpenSUSE listesinin bir konusuna yanıt olarak gönderilmiş ve benzer örneklerde de aynen benzer bir konu ve metin görülmektedir.
+- E-postada herhangi bir şifre, ödeme veya para transferi talebi bulunmamaktadır.
+- Gönderen e-posta adresi, genel bir internet sağlayıcısı olan Rogers'dan gelmektedir ve şüpheli bir görünümü yoktur.",James Knott <gjaid.adgua@rogers.com>,Re: [opensuse] Defragging: possible?  necessary?
+CEAS_08,0,0,GÜVENLİ,-,qwen,6.09,"1. E-posta, gönderenin gerçek bir marka alan adı kullanmasıyla güvenilir görünmektedir.
+2. E-posta, teknik konuları ele alarak HOTMAIL ile ilgili spaminge dair bilgi paylaşmaktadır.
+3. Benzer örneklerde de benzer konular ele alınan normal e-postalar gözlemlenmiştir.",Mike Jackson <ptyazdyr@barking-dog.net>,Re: [OT] Yahoo Deferred
+CEAS_08,0,0,GÜVENLİ,-,qwen,6.9,"- E-posta, Python geliştiricilerine gönderilen bir tartışmaya yanıt vermektedir.
+- Bağlantı ""http://allmydata.org"" ile ilgili bilgi sağlar ve güvenilir bir kaynaktan alınan bir bağlantıdır.
+- Benzer örneklerde olduğu gibi, bu tür tartışmalar ve bilgi paylaşımı genellikle güvenli e-postalardır.",zooko <kaklt@zooko.com>,Re: [Python-Dev] PEP 365 (Adding the pkg_resources module)
+CEAS_08,0,0,GÜVENLİ,-,qwen,6.14,"1. E-posta, Python geliştirme listesine ait ve benzer örneklerde olduğu gibi normal bir tartışmaya benzer.
+2. E-postada hiçbir şüpheli bağlantı veya istek bulunmamaktadır.
+3. Gönderen e-posta adresi, benzer örneklerde olduğu gibi genel bir e-posta adresi görünümü taşımaktadır.",Benjamin Peterson <mfphjffbrfsvyrjf@gmail.com>,[Python-Dev] Duplicate tests
+Enron,0,0,GÜVENLİ,-,qwen,6.08,"1. E-posta, Enron'un normal bir toplantı bildirimi gibi görünmektedir.
+2. E-postada özel bilgi veya para talebi bulunmamaktadır.
+3. Benzer örneklerde olduğu gibi, bu tür konu ve metinler genellikle gerçek kurumların olağan bildirimlerini temsil etmektedir.",(bilinmiyor),jeff skilling
+Enron,0,0,GÜVENLİ,-,qwen,5.11,"1. E-posta, ""got book and papers, thanks!"" şeklinde bir mesaj içeriyor ve benzer örneklerde olduğu gibi bir normal iş yazışmasıdır.
+2. E-postada ödeme veya şifre isteği gibi şüpheli bir ifade bulunmuyor.
+3. Gönderen adresi bilinmiyor ancak e-postanın içeriği ve yapısı, benzer örneklerle uyumlu.",(bilinmiyor),"got book and papers , thanks !"
+Enron,0,0,GÜVENLİ,-,qwen,5.95,"1. E-posta, Enron'un normal bir toplantı bildirimi gibi görünmektedir.
+2. E-postada ödeme, şifre veya kişisel bilgi talebi bulunmamaktadır.
+3. Benzer örneklerde olduğu gibi, gönderenin gerçek bir marka alanı olmadığı ve e-posta içeriğinin normal bir iş iletişimi olduğunu gösterebilir.",(bilinmiyor),reminder - enronanywhere portal project meeting
+Enron,0,1,ŞÜPHELİ,oltalama,qwen,6.38,"1. E-posta, ""payment"" ifadesi içeriyor, bu genellikle para transferi veya ödeme taleplerini işaretler.
+2. Gönderenin gerçek bir marka alanı olmadığı gözlemleniyor.
+3. E-posta, Enron'dan gelen benzer örneklerle karşılaştırıldığında benzer bir ton ve formatta olmuyor; bu, şüpheli bir e-posta işaretidir.",(bilinmiyor),couple of things
+Enron,0,0,GÜVENLİ,-,qwen,8.48,"1. E-posta, gönderenin gerçek bir marka alan adı olup olmadığını kontrol etmek için gönderen kontrolü yapıldı, ancak gönderen bilinmiyor.
+2. E-postada ""security approver"" ve ""approval"" gibi ifadeler bulunuyor, bu genellikle iş ortamında normal bir uygulama olup, dolandırıcılık veya oltalama e-postası değildir.
+3. E-Posta, benzer örneklerde olduğu gibi bir erişim talebi bildirimi olup, bu nedenle şüpheli bir e-posta değildir. [E1]...[E5] etiketlerindeki örneklerle benzerlik gösteriyor.",(bilinmiyor),request submitted : access request for kelly . lombardi 2 @ enron . com
+Enron,0,0,GÜVENLİ,-,qwen,9.16,"1. E-posta, Enron'dan gelen benzer bir e-posta ile benzer, iş içi bir konu ve metin içeriyor.
+2. E-posta, bir anlaşmanın uzatılmasından ve bu anlaşmanın Enron için önemli bir başarı olduğundan bahsediyor, bu da genellikle iş içi iletişimlerde olduğu gibi bir durumdur.
+3. E-posta, gönderenin gerçek bir marka alan adı olmadığı için gönderen kontrolü incelendiğinde şüpheli görünebilir, ancak e-postanın içeriği iş içi bir konu ve metin içerdiği için güvenli kabul edilebilir.",(bilinmiyor),fw : extension of petro - canada wholesale gas services arrangement
+Enron,0,0,GÜVENLİ,-,qwen,5.88,"1. E-posta içeriğinde ödeme veya şifre isteği bulunmamaktadır.
+2. Benzer örneklerde olduğu gibi, bu e-posta işbirliği ve bilgi paylaşımı içermektedir.
+3. E-posta, gerçek bir kurumun (Enron) normal bir iletişim içermektedir.",(bilinmiyor),hplc - four square 5 / 01
+Enron,0,0,GÜVENLİ,-,qwen,6.69,"1. E-posta, Enron şirketinin içişleri aracılığıyla gönderilmiş ve benzer örneklerde olduğu gibi normal iş iletişimini yansıtmaktadır.
+2. Gönderen ve alıcılar Enron'un çalışanlarıdır.
+3. E-posta, projeler ve belgelerle ilgili normal bir iletişim içermektedir.",(bilinmiyor),re : fw : enron credit model docs for the comparative model study -
+Enron,0,0,GÜVENLİ,-,qwen,6.52,"1. E-posta, Enron şirketinin normal iş yazılaşması benzeri bir içeriği taşır.
+2. E-posta, gönderenin ve alıcının isimleri gerçek personel isimlerine uygun.
+3. E-posta, benzer örneklerde olduğu gibi, işsal ve kurumsal bir içeriye sahiptir.",(bilinmiyor),action plan
+Enron,0,0,GÜVENLİ,-,qwen,7.44,"1. E-posta içeriğinde ödeme veya şifre isteği bulunmamaktadır.
+2. Benzer örneklerde olduğu gibi, bu tür işbirliği ve kurumsal iletişim içeren e-postalar genellikle güvenli olup, oltalama veya dolandırıcılık e-postaları değildir.
+3. E-posta, kurumsal bir temalı ve spesifik bir iş konusunda bilgi vermektedir, bu nedenle spam-reklam e-postası olma olasılığı da düşük.",(bilinmiyor),eastrans nomination change effective 9 / 23 / 00
+Enron,0,0,GÜVENLİ,-,qwen,5.79,"1. E-posta, Enron'un normal bir iş yazışmasıdır.
+2. Gönderen ve alıcı adları gerçek isimlerdir.
+3. Konu ve metin içeriği, iş ilgili sorular ve cevaplar içermektedir.",(bilinmiyor),re :
+Enron,0,0,GÜVENLİ,-,qwen,5.77,"1. E-posta, Enron şirketinin normal bir iletişimini yansıtmaktadır.
+2. Benzer örneklerde olduğu gibi, gönderenin gerçek bir marka alanı olmadığı gözlemlenmiştir.
+3. E-postada herhangi bir şüpheli ifade veya bağlantı bulunmamaktadır.",(bilinmiyor),re : hl & p
+Enron,0,0,GÜVENLİ,-,qwen,6.49,"1. E-posta, bir yönetim komitesi üyelerinin listesini dağıtıma hazırladığı belirtiliyor. Benzer örneklerde de olduğu gibi, bu tür bilgilendirme e-postaları genellikle güvenli olur.
+2. E-postada herhangi bir şifre, ödeme veya kişisel bilgi isteği bulunmamaktadır.
+3. Gönderenin gerçek bir marka alanı olmadığı belirtilmiştir. Ancak, içeriğe bakıldığında, bu bir normal iş iletişimidir.",(bilinmiyor),management committee listing
+Enron,0,0,GÜVENLİ,-,qwen,8.02,"1. E-posta, Enron şirketinin normal iş yazışmaları arasında yer alıyor ve gönderenin gerçek bir marka alanı olmadığı gözlemleniyor.
+2. E-posta, iş ilgili ve formatta olup, özel bilgi veya istekler içermedi.
+3. E-posta, benzer örneklerde olduğu gibi Enron şirketinin normal iş e-postaları arasında yer alıyor ve gönderenin gerçek bir marka alanı olmadığı gözlemleniyor.",(bilinmiyor),"wagner & brown , cornelius lease , meter # 986589 - 10"
+Enron,0,0,GÜVENLİ,-,qwen,8.36,"1. E-posta, ""your friend"" ifadesiyle ve ""look forward to talking with you next week"" cümlesiyle kişisel bir yazışma ifadesine sahip.
+2. E-posta, Enron'dan gönderilen benzer örneklerle benzer, resmi bir kurumdan gelen normal bir mesaj gibi görünmektedir.
+3. E-posta, Enron'dan gelen benzer örneklerde olduğu gibi, belirli bir konuyla ilgili bilgi talep etmektedir ve resmi bir kurumun (Baylor Üniversitesi) adı ve iletişim bilgileri verilmiştir.",(bilinmiyor),here ' s a list of materials
+Enron,0,0,GÜVENLİ,-,qwen,7.4,"1. E-posta, Enron şirketi için normal bir iş yazısına benzer. İçerisinde işlemlerle ilgili hatalar ve log mesajları yer alıyor.
+2. Gönderen adresi bilinmiyor olmasına rağmen, e-posta içeriğinin iş yerine özgü bir hata raporu olduğunu gösteriyor.
+3. Benzer örneklerde de olduğu gibi, bu tür hata raporları genellikle güvenli iş yazısına benzer.",(bilinmiyor),schedule crawler : hourahead failure
+Enron,0,0,GÜVENLİ,-,qwen,5.63,"1. E-posta, Enron'un normal bir iş yazışmasıdır.
+2. Konu ve metin içeriği, Enron'un analist ve asistan programını ele alıyor.
+3. Benzer örneklerde olduğu gibi, gönderen bilinmiyor ancak e-postanın içeriği ve yapısı güvenli görünmektedir.",(bilinmiyor),initial meeting to kick off ena analyst and associate roundtable
+Enron,0,1,ŞÜPHELİ,oltalama,qwen,10.73,"1. E-posta, ""tiger team"" ve ""summer associate positions"" gibi terimler kullanırken, bu terimler genellikle iş ortaklıkları veya eğitim programlarında kullanılır. E-posta, bir kurumun (Enron) ile ilgili olup olmadığı konusunda belirsizlik var.
+2. E-posta, ""tiger team group 2 has decided not to be a part of enron"" ifadesiyle Enron ile ilgili bilgiye dayalı bir durum öne sürmektedir, bu da şüpheli bir durum belirtir.
+3. E-posta, ""break out of names"" ifadesiyle belirli isimleri istemekte olup, bu tür talepler genellikle kişisel bilgi isteklerini gösterir. Bu, dolandırıcılık veya oltalama e-postalarının bir örneğidir.",(bilinmiyor),wharton tiger team
+Enron,0,0,GÜVENLİ,-,qwen,7.59,"1. E-posta, Enron'un normal bir iletişim örneğine benzer ve içeriğinde belirgin bir şüpheli veya tehdit ifadesi bulunmamaktadır.
+2. Gönderenin Enron'un alan adı üzerinden gönderildiği görülmektedir.
+3. Benzer örneklerde de görüldüğü gibi, bu tür e-postalar genellikle bilgi paylaşımı veya toplantı konusunda yapılan bir iletişimdir.",(bilinmiyor),re : 2001 fma european conference
+Enron,0,0,GÜVENLİ,-,qwen,6.54,"1. E-posta, realestate ve moving experience gibi temel iş konularında ve kişisel bir tonla yazılmıştır.
+2. Bağlantılar ve form doldurma talepleri bulunmamaktadır.
+3. E-posta, gerçek bir realestate firması tarafından gönderilmiş ve benzer örneklerde (E3) olduğu gibi profesyonel ve kişisel bir tonla yazılmıştır.",(bilinmiyor),hi darren
+Enron,0,0,GÜVENLİ,-,qwen,8.17,"1. E-posta, ""good media article"" ifadesiyle başlaması ve bir makaleyi paylaştığı belirtilmesi, dolandırıcılık veya oltalama e-postası olma olasılığını azaltıyor.
+2. Gönderenin adı ve firma bilgisi verilmiştir: ""Raymond C. Niles, Power / Natural Gas Research, Salomon Smith Barney"". Bu bilgi, e-postanın gerçek bir kurumdan geldiğine dair bir işaret.
+3. E-posta, benzer örneklerde olduğu gibi, genel bilgi ve makale paylaşımı içermekte ve reklam veya özel bilgi talep etmemektedir.",(bilinmiyor),good media article explaining the california power markets and th e
+Enron,0,1,ŞÜPHELİ,oltalama,qwen,8.93,"1. E-posta, ""enron"" kelimesi içeriyor ancak gönderen adresi bilinmiyor ve gerçek bir marka alanı olmadığı görülmektedir.
+2. E-posta, ""şifre"" kelimesi içermedi ve para veya kişisel bilgi talep etmediği görülmektedir.
+3. E-posta, benzer örneklerde olduğu gibi genellikle iş ilgili ve formel bir tonla yazılmış olmasına rağmen, gönderenin gerçek bir marka olduğunu doğrulayan bir bilgi sunmamaktadır. Bu nedenle, e-posta şüpheli olarak değerlendirilmektedir.",(bilinmiyor),enron and ngx
+Enron,0,0,GÜVENLİ,-,qwen,6.09,"1. E-postada bulunan ""payment"" ifadesi, benzer örneklerde olduğu gibi genellikle işbirliği veya finansal işlemler bağlamında kullanılmıştır.
+2. E-posta, Enron'da benzer iş süreçlerini tartışan diğer örneklerle benzer.
+3. E-posta, gerçek bir iş sürecini anlatmaktadır ve şüpheli bir istek veya tehdit içermez.",(bilinmiyor),structure for storage loans / deferred payment deals
+Enron,0,0,GÜVENLİ,-,qwen,6.74,"1. E-posta, iş ortaklığı ile ilgili bir konu ve metin içeriyor.
+2. E-posta, tarih ve saat konusunda doğrulama ve onaylamalar içeriyor.
+3. Benzer örneklerde de olduğu gibi, bu e-posta iş ortaklığı ve toplantı planlaması içindir.",(bilinmiyor),re : pre - meeting weathereffects site cruise
+Enron,0,0,GÜVENLİ,-,qwen,7.56,"1. E-posta, Enron şirketinin bir memurunun normal bir iş iletişimi olarak sınıflandırılabilir.
+2. Benzer örneklerde olduğu gibi, e-posta içeriğinde iş konusu ve profesyonel bir dil kullanıldığı görülmektedir.
+3. E-postada bulunan ""new business"" konusu ve ""meet your friend"" ifadesi, dolandırıcılık veya oltalama e-postalarında genellikle görülen istekler veya teklifler değildir.",(bilinmiyor),re : new business
+Ling,0,0,GÜVENLİ,-,qwen,6.33,"1. E-posta, bir konferans duyurusu içermektedir.
+2. Gönderen adresi bilinmiyor, ancak e-posta içeriğine bakıldığında olağan bir duyuru olduğu görülmektedir.
+3. Benzer örneklerde de olduğu gibi, bu tür duyurular genellikle güvenli ve gerçek kurumlar tarafından gönderilir.",(bilinmiyor),greek linguistics
+Ling,0,0,GÜVENLİ,-,qwen,6.86,"1. E-posta, Ling: normal e-posta benzer örneklerine uyuyor.
+2. E-posta, ""review editor"" ile ilgili bilgilere ve isteklere dayalı bir içerik içeriyor.
+3. E-posta, ""review editor"" ile iletişim kurma isteği ve gerekli bilgileri sağlama talebi içeriyor, dolayısıyla dolandırıcılık veya oltalama türü bir e-posta değildir.",(bilinmiyor),"avail for review : syntax , prosody , semantics"
+Ling,0,0,GÜVENLİ,-,qwen,6.79,"1. E-posta, bir konferans programı hakkında bilgi vermektedir.
+2. Gönderen adresi belirtilmemiş olsa da, konferans konusu ve konuyla ilgili kurumlar (University of Hawaii at Manoa) doğrultusunda şüphelenilmez.
+3. Benzer örneklerde de olduğu gibi, e-posta genel bir bilgi ve toplantı programı hakkında bilgi vermektedir.",(bilinmiyor),japanese / korean linguistics
+Ling,0,0,GÜVENLİ,-,qwen,5.94,"1. E-posta, benzer örneklerdeki normal bir liste ve bilgi paylaşımı gibi görünmektedir.
+2. E-postada belirgin bir şifre isteği, para talebi veya dolandırıcı ifade bulunmamaktadır.
+3. E-posta, bir araştırma grubu ile ilgili ve genel bir konu hakkında bilgi paylaşımıdır.",(bilinmiyor),"re : 3 . 420 fyi : morphology , concordance"
+Ling,0,0,GÜVENLİ,-,qwen,6.4,"1. E-posta, iş teklifleri içeren normal bir iş ilanıdır.
+2. Gönderen adresi bilinmiyor olmasına rağmen, e-posta içeriği ve yapısı, genel iş ilanlarının özelliklerine uyum göstermektedir.
+3. E-posta, benzer örneklerdeki gibi genel ve açıklayıcı bir içerik sunmaktadır ve özel bilgi talep etmemektedir.",(bilinmiyor),job in japan
+Ling,0,0,GÜVENLİ,-,qwen,6.03,"1. E-posta, Texas Linguistics Society'nin (TLS) 1999 konferansına yönelik bir bildirimdir.
+2. Konferansta sunulacak konular ve sunucular hakkında bilgi verilmiştir.
+3. Benzer örneklerde olduğu gibi, bu tür bilgilendirme e-postaları genellikle güvenli olarak kabul edilir.",(bilinmiyor),"2nd call , tls 1999"
+Ling,0,0,GÜVENLİ,-,qwen,5.88,"1. E-posta, bir dil çevirisi şirketinin iş teklifini ilan ettiğini gösteriyor.
+2. Benzer örneklerde de benzer içeriklerin (iş teklifi ilanı) olduğu gözlemleniyor.
+3. E-posta, tam ve açık bir şekilde yazılmış ve spamerlerin genellikle kullandığı belirsiz gönderen adreslerini kullanmadığını göstergeliyor.",(bilinmiyor),seeking spanish editor / translator
+Ling,0,0,GÜVENLİ,-,qwen,6.73,"1. E-posta, akademik ve bilimsel bir konu hakkında bilgi vermek için yazılmış görünmektedir.
+2. Gönderen adresi bilinmiyor olmasına rağmen, metnin akademik ve bilimsel bir içeriği olduğu görülmektedir.
+3. Benzer örneklerde olduğu gibi, bu e-posta da diğer akademik ve bilimsel yayınlarla benzer özelliklere sahiptir.",(bilinmiyor),"a minimalist approach to intrasentential code switching , jeff macswan"
+Ling,0,0,GÜVENLİ,-,qwen,7.08,"1. E-posta, Ling adlı bir forumunuzda yapılan bir tartışmaya yanıt vermektedir.
+2. Ana metin ve benzer örneklerde olduğu gibi, e-posta akademik ve tartışmaya dayalı bir içerik içeriyor.
+3. E-posta, genel bir kavram üzerine (dil öğrenme deneyimi ve dil bilimci olma arasındaki ilişki) genel bir görüş paylaşımını içeriyor ve hiçbir şüpheli veya tehditli ifade bulunmuyor.",(bilinmiyor),"re : 3 . 402 queries : language - speakers , syntax , texts"
+Ling,0,0,GÜVENLİ,-,qwen,6.39,"1. E-posta, Ling (lingvistik) konusunda bir kitap incelemesine dair bilgi vermektedir.
+2. Benzer örneklerde de olduğu gibi, gönderenin bilinmiyor olup, e-posta içeriğine dayanılarak güvenilir görünmektedir.
+3. E-postada herhangi bir şüpheli ifade veya bağlantı bulunmamaktadır.",(bilinmiyor),book review ( cheng ) : on the typology of wh - questions
+Ling,0,0,GÜVENLİ,-,qwen,7.74,"1. E-posta, bir akademik etkinlik ilanı olup, konu ve metin içeriğiyle benzer örneklere (E1-E5) uymaktadır.
+2. E-posta, gerçek bir kurumun (Vilem Mathesius Centre) etkinlik ilanı olup, şüpheli bir istek veya tehdit içermedi.
+3. E-posta, genel bir bilgi verme amaçlı ve kişisel bilgi talep etmedi.",(bilinmiyor),"vilem mathesius lecture series 13 - prague , nov . 98"
+Ling,0,0,GÜVENLİ,-,qwen,7.08,"1. E-posta, bir konferans için başvuru çağrısıdır ve benzer örneklerde olduğu gibi genel bir konferans çağrısı metni içerir.
+2. E-posta, ""console 6"" adlı bir organizasyon tarafından gönderilmiştir ve belirli bir konferans için başvuru çağrısıdır.
+3. E-posta, belirli bir konferans için başvuru çağrısıdır ve benzer örneklerde olduğu gibi genel bir konferans çağrısı metni içerir.",(bilinmiyor),console 6 - last call for papers !
+Ling,0,1,ŞÜPHELİ,dolandırıcılık,qwen,10.39,"1. E-posta, Caterpillar Inc. adlı gerçek bir şirket tarafından gönderildiği görünmüyor ve gönderen adresi bilinmiyor.
+2. E-posta, iş teklifleri ve pozisyonlar hakkında bilgi veriyor, ancak benzer örneklerde olduğu gibi, bu tür mesajlar genellikle gerçek iş teklifleri olabilir. Ancak, e-posta, genel bir mesajla başlıyor ve özel bir kişiye iletişim kurulması isteniyor, bu da dolandırıcılık şüphesi yaratıyor.
+3. E-posta, genel bir mesajla başlıyor ve özel bir kişiye iletişim kurulması isteniyor, bu da dolandırıcılık şüphesi yaratıyor. Benzer örneklerde (E1-E5) genellikle daha spesifik ve kişisel bilgilerle başlıyor.",(bilinmiyor),job openings
+Ling,0,0,GÜVENLİ,-,qwen,7.01,"1. E-posta, konferans duyurusu içeriği taşımaktadır.
+2. Gönderen adresi bilinmiyor olmasına rağmen, benzer örneklerde olduğu gibi genellikle gerçek kurumlar tarafından gönderilen konferans duyurusu e-postalarıdır.
+3. E-postada telif bilgileri ve başvuru tarihi gibi bilgiler de yer almaktadır, bu da e-postanın gerçek bir konferans duyurusu olduğunu göstermektedir.",(bilinmiyor),document design
+Ling,0,0,GÜVENLİ,-,qwen,6.95,"1. E-posta,LING: normal e-posta benzer örneklerine uyuyor.
+2. E-posta, gönderen adresi bilinmiyor olmasına rağmen, metninde reklam veya şifre isteği gibi şüpheli işaret bulunmuyor.
+3. E-posta, bir dizi dil ve dilbilim ilgili kitap hakkında bilgi veren ve benzer örneklerle aynı türden bir e-posta.",(bilinmiyor),
+Ling,0,0,GÜVENLİ,-,qwen,6.79,"1. E-posta, bilimsel bir konferans ve workshop ilanı içermektedir.
+2. Gönderen adresi bilinmiyor olmasına rağmen, e-posta içeriği bilimsel ve resmi bir konu hakkında bilgi vermektedir.
+3. Benzer örneklerde olduğu gibi, e-posta konusu ve içeriği resmi ve güvenli bir konferans ilanıdır.",(bilinmiyor),sound patterns of spontaneous speech
+Ling,0,0,GÜVENLİ,-,qwen,6.3,"1. E-posta, benzer örneklerde olduğu gibi bir akademik tartışmaya ve fikir alışverişine benzer.
+2. E-postada hiçbir şüpheli anahtar ifade veya istek bulunmamaktadır.
+3. Gönderen adresi bilinmeyen bir adresle gönderilmiş ancak, içerik doğrultusunda şüpheli bir e-posta değildir.",(bilinmiyor),6 . 136 language and species
+Ling,0,0,GÜVENLİ,-,qwen,7.32,"1. E-posta, John Benjamins Publishing'den gelen ve yeni kitaplar hakkında bilgi veren bir normal e-posta.
+2. Gönderen adresi bilinmiyor, ancak John Benjamins Publishing'un genellikle gerçek bir yayınevi olduğu bilinmektedir.
+3. E-posta, benzer örneklerde olduğu gibi, genel bilgi ve kitap revizyonu konularında normal bir e-posta içermektedir.",(bilinmiyor),books on functional linguistics
+Ling,0,0,GÜVENLİ,-,qwen,6.46,"1. E-posta, bir bilimsel konferans ve çalışma grubu ile ilgili bilgi ve çağrı için gönderildiği bellidir.
+2. E-posta içeriğinde herhangi bir para veya kişisel bilgi talebi bulunmamaktadır.
+3. Benzer örneklerde olduğu gibi, bu tür bilimsel etkinlikler için çağrı e-postaları güvenli olabilir.",(bilinmiyor),ld ' 98 second cfp
+Ling,0,0,GÜVENLİ,-,qwen,7.25,"1. E-posta, bir araştırmaya davet etmektedir ve benzer örneklerde olduğu gibi genel bir konu ve metin içerir.
+2. Gönderen adresi bilinmiyor olup, şüpheli bir gönderenle ilgili bir işaret yoktur.
+3. E-postada ""username"" ifadesi, bir kullanıcı adı istemine işaret olmaz, çünkü araştırmaya katılma sürecinde bu normal bir durumdur.",(bilinmiyor),survey study
+Ling,0,0,GÜVENLİ,-,qwen,5.5,"1. E-posta, bir bilgi talebi içermektedir ve dolayısıyla dolandırıcılık veya oltalama türü bir e-posta değildir.
+2. Benzer örneklerde olduğu gibi, bu e-posta da bir bilimsel araştırma grubu tarafından gönderilen ve diğer bilginin talep edildiği normal bir e-posta benzeridir.",(bilinmiyor),query : guide to software for linguistic analysis
+Ling,0,0,GÜVENLİ,-,qwen,7.1,"1. E-posta, Ling (lingvistik) alanda normal bir bilgi ve kitap duyurusu içermektedir.
+2. Gönderen adresi bilinmiyor olmasına rağmen, içerik ve konu başlıkları, genel bir bilgi ve araştırma duyurusu olma olasılığı yüksek.
+3. Benzer örneklerde de olduğu gibi, bu e-posta da diğer Ling alanda bilgi ve kitap duyurusu e-postalarına benzer yapıya sahiptir.",(bilinmiyor),"c . t . james huang , syntax"
+Ling,0,0,GÜVENLİ,-,qwen,6.13,"1. E-posta, akademik bir soru soru amacıyla yazılmış ve benzer örneklerde olduğu gibi bir dizi dilbilgisini araştırmak için referans talep ediyor.
+2. Gönderenin kimliği açıkça belirtilmiş ve e-posta, akademik bir soruşturmacı tarafından yazılmış gibi görünüyor.
+3. E-postada herhangi bir şüpheli veya tehditli ifade bulunmamaktadır.",(bilinmiyor),acquisition of reflexive verbs
+Ling,0,0,GÜVENLİ,-,qwen,6.41,"1. E-posta, John Benjamins Publishing'den gelen yeni kitaplar hakkında bilgi veren bir normal e-posta.
+2. Gönderen adresi bilinmiyor, ancak e-posta içerikleri ve gönderenin adı gerçek bir yayınevi olduğunu gösteriyor.
+3. Benzer örneklerdeki e-postaların içeriğiyle benzerlik gösteriyor.",(bilinmiyor),books on translation
+Ling,0,0,GÜVENLİ,-,qwen,8.14,"1. E-posta, bir akademik tartışmaya dahil olup, genel bir dolandırıcılık veya oltalama e-postası gibi bir şüpheli içeriği içermez.
+2. Benzer örneklerde olduğu gibi, e-posta akademik bir konu hakkında tartışmaya dahildir ve genel bir spam veya dolandırıcılık e-postası değildir.
+3. E-posta, bir akademik tartışmanın bir parçası olarak gönderildiği için şüpheli bir durum değildir.",(bilinmiyor),re : 5 . 1435 native speaker intuitions
+SpamAssasin,0,0,GÜVENLİ,-,qwen,7.43,"1. Gönderen kontrolü kesin bir şüpheye işaret etmedi, gerçek bir marka alanından geldi.
+2. E-postada bulunan anahtar ifadeler (bağlantı) şüpheli bir web sitesi işaret etmedi.
+3. Benzer örneklerde, spam örneği örneklerinde (E2, E3, E5) daha açıkça şüpheli ifadeler ve bağlantılar bulunuyor. Bu e-posta ise genel bir konu ve normal bir iletişim içermektedir.",Udhay Shankar N <udhay@pobox.com>,Re: ActiveBuddy
+SpamAssasin,0,0,GÜVENLİ,-,qwen,9.03,"1. E-posta, ""Bill Stoddard"" adlı bir kişinin kendisi tarafından gönderildi ve gönderenin gerçek bir marka alan adı olmadığı görüldü.
+2. E-postada ""dickheads"" ve ""disagreeable assholes"" gibi ifadeler bulunmakla birlikte, bu ifadeler genel bir eleştiri ve eleştirel düşünce ifadesidir.
+3. E-posta, genel bir konu olan ilk ayrim hakkındaki görüşlerin bir parçası olup, dolandırıcılık veya oltalama e-postası değildir. Benzer örneklerde de benzer eleştiriler ve tartışmalar görülmektedir.","""Bill Stoddard"" <bill@wstoddard.com>",RE: Re[2]: A moment of silence for the First Amendment (fwd)
+SpamAssasin,0,0,GÜVENLİ,-,qwen,8.13,"1. E-posta, ""boingboing"" adlı bir web sitesinden gelmektedir ve genellikle normal bir e-posta gibi görünmektedir.
+2. E-postada telif hakkı olmayan bir bağlantı bulunmakta ve içerik genel bir bilgi paylaşımıdır.
+3. Benzer örneklerde de olduğu gibi, bu tür içerik genellikle spam veya dolandırıcı olmaz. [E1]...[E5] benzer örneklerde de genel bilgi paylaşımı ve telif hakkı olmayan bağlantılar bulunmaktaydı.",boingboing <rssfeeds@spamassassin.taint.org>,Weird museums of NYC
+SpamAssasin,0,0,GÜVENLİ,-,qwen,7.16,"1. E-posta, Razor kullanıcısı arası bir tartışmaya yanıt vermektedir ve benzer örneklerde normal e-postalar olduğu gibi görünmektedir.
+2. E-postada herhangi bir şüpheli bağlantı veya istek bulunmamaktadır.
+3. Gönderen adresi, Razor projesinin genel bir e-posta adresi olduğu için şüphelenilmez.","""Sven"" <sven@dmv.com>","Re: [Razor-users] Smrazor, Milter, and Max connections"
+SpamAssasin,0,0,GÜVENLİ,-,qwen,6.74,"1. E-posta, bir teknik konu hakkında bilgi ve soruları içeriyor.
+2. Bağlantı, bir liste abonesi bildirimi adresine yönlendiriyor.
+3. Benzer örneklerde, benzer bir ton ve konu başlıkları görülmektedir. Bu e-posta, diğer örneklerle benzer şekilde teknik bilgi ve sorulara cevap veren bir tartışmaya dahildir.",Ralf Ertzinger <ralf@camperquake.de>,Re: Documentation about built-in RPM macros?
+SpamAssasin,0,0,GÜVENLİ,-,qwen,7.35,"1. E-posta, Irish Linux Users' Group (ILUG) ile ilgili ve benzer örneklere göre normal bir iletişim gibidir.
+2. Gönderen adresi, genel bir iş adresi gibi görünmektedir ve şüpheli bir işaret göstermemektedir.
+3. E-posta, sadece bir ilgili konu hakkında bilgi vermek ve ilgili kanala ulaşma isteği içerir.",Donncha O Caoimh <donncha.ocaoimh@tradesignals.com>,[ILUG] Fwd: Linux Beer Hike
+SpamAssasin,0,0,GÜVENLİ,-,qwen,10.11,"1. E-posta, Daily Dilbert'in resmi gönderme adresinden geldi ve gönderen kontrolü kesin bir sorun göstermedi.
+2. E-posta, kullanıcıya günlük dilbert çizgi romanının HTML sürümünü devre dışı bırakma hakkında bilgi veriyor. Bu tür bir mesaj genellikle güvenli olabilir.
+3. E-posta, benzer örneklerde (E1) normal e-postaların olduğu gibi, bu durumda güvenli bir e-posta örneği gösteriyor.",Daily Dilbert <2.21043.2c-kMPmgZUD7TNG.1@ummail4.unitedmedia.com>,Your Daily Dilbert 07/20/2002
+SpamAssasin,0,0,GÜVENLİ,-,qwen,7.83,"- E-posta, ""SpamAssasin: normal e-posta"" benzeri bir örnekten farklı olarak, gerçek bir haber kaynağından (The Sun) bir bağlantı paylaşmaktadır.
+- E-posta, ""Crop Idol"" konusunda bilgilendirme amacıyla gönderilmiş olabilir ve para veya kişisel bilgi talep etmemektedir.
+- E-posta, ""Spam-reklam"" türünde benzer örneklerde olduğu gibi, para veya ürün talep etmemektedir.","""timothy_hodkinson"" <mephistopheles29@hotmail.com>",[zzzzteana] Crop Idol: Crop circle competition
+SpamAssasin,0,0,GÜVENLİ,-,qwen,7.08,"- E-posta, ""baesystems.com"" alan adıyla gönderildi ve gönderenin gerçek bir marka olduğunu gösteriyor.
+- E-posta, bir forumun konularını ve üyelerini tartışan bir mesajın yanıtını oluşturuyor.
+- Benzer örneklerde de olduğu gibi, bu tür mesajlar genellikle forum veya gruplarla ilgili tartışmaları içerir ve güvenli olabilir.","""uncle_slacky"" <robert.chambers@baesystems.com>",[zzzzteana] Re: Argh!
+SpamAssasin,0,0,GÜVENLİ,-,qwen,7.08,"1. E-posta, teknik konularla ilgili ve açık bir tartışmaya katkıda bulunuyor.
+2. Gönderen adresi, olağan bir e-posta adresi ve gönderenin gerçek bir marka adı olduğu görülmektedir.
+3. Benzer örneklerde de olduğu gibi, bu tür teknik tartışmalar genellikle güvenli ve spam değildir.",Dave Cridland <dave@cridland.net>,Re: Limbo beta 2 ?
+SpamAssasin,0,0,GÜVENLİ,-,qwen,5.41,"1. E-posta, SpamAssasin tarafından normal e-posta olarak tespit edildi.
+2. Gönderen, gerçek bir marka alan adı olan pathname.com'dan gelmektedir.
+3. E-postada tıpkı benzer örneklerde olduğu gibi, istekler, tehditler veya şüpheli bağlantılar bulunmamaktadır.",Daniel Quinlan <quinlan@pathname.com>,FYI - gone this weekend
+SpamAssasin,0,0,GÜVENLİ,-,qwen,6.56,"1. E-posta, ""SpamAssasin: normal e-posta"" etiketine sahip benzer örneklerle uyumlu.
+2. Gönderen adresi, önceden tanımlanmış bir marka alanına sahip.
+3. E-postada tıklatma bağlantısı bulunmakla birlikte, bu tür bir bağlantı genellikle haberlere yönlendirme amaçlıdır. Benzer örneklerde de aynı tür bağlantılar bulunmuştur.",guardian <rssfeeds@spamassassin.taint.org>,Italy goes over old battlegrounds
+SpamAssasin,0,0,GÜVENLİ,-,qwen,5.74,"- E-posta, SpamAssassin tarafından normal bir e-posta olarak sınıflandırıldı.
+- Gönderen adresi, benzer örneklerde belirtilen geçerli bir marka alanıdır.
+- E-postada bulunan bağlantı, reklam veya şüpheli içerik bulunmamaktadır.",Vivek Khera <khera@kcilink.com>,Re: [SAtalk] Ignore System Messages - How?
+SpamAssasin,0,0,GÜVENLİ,-,qwen,8.8,"1. Gönderen kontrolü kesin bir karar vermedi, ancak gönderenin ""boingboing"" adlı bir web sitesinin genellikle gönderdiği normal e-postalar olduğunu gösteren benzer örneklerle uyumlu.
+2. E-postada bulunan bağlantı ""http://boingboing.net/#85511996"" ve metnin içeriği, genellikle ""boingboing"" tarafından gönderilen normal ve güvenli içeriklere benzer.
+3. E-posta, TrackBack pinging hakkında bilgi veren ve etkin bir iletişim mekanizması olarak kabul edilen bir web sitesine bağlantı veren normal bir mesajdır.",boingboing <rssfeeds@spamassassin.taint.org>,TrackBack for OSXCON
+SpamAssasin,0,0,GÜVENLİ,-,qwen,11.73,"1. Gönderen kontrolü: E-postanın gönderen adresi ""boingboing <rssfeeds@spamassassin.taint.org>"" olarak belirtilmiştir. Bu adres, ""boingboing.net"" adlı bir web sitesinin spam kontrol sistemindeki bir adres olduğunu göstermektedir. Bu, e-postanın gerçek bir web sitesinden geldiğini göstermektedir.
+2. E-postada bulunan işaretlere bakıldığında, e-posta sadece bir kitaplık ve literatür yardım merkezi tarafından düzenlenen bir yarışma hakkında bilgi vermektedir. E-posta, kitap ve resimlerin tüketicilerden satın alınmasını teşvik etmemektedir.
+3. Benzer örnekler: [E2] ve [E3] gibi örnekler, bu tür bilgilendirme e-postalarının genellikle güvenli olduğunu göstermektedir. Bu nedenle, incelemeye alınan e-posta da güvenli bir e-posta olarak kabul edilebilir.",boingboing <rssfeeds@spamassassin.taint.org>,Horror writers against illiteracy
+SpamAssasin,0,0,GÜVENLİ,-,qwen,6.58,"- E-posta, ""SpamAssasin: normal e-posta"" etiketiyle gönderildi.
+- E-posta, ""Goodbye Global Warming"" konusu altında bir tartışmaya yanıt vermektedir.
+- E-posta içindeki bağlantı ve metin, genel bir tartışmaya odaklanmaktadır ve şüpheli bir istek veya tehdit içermez.","""Geege Schuman"" <geege@barrera.org>",RE: Goodbye Global Warming
+SpamAssasin,0,0,GÜVENLİ,-,qwen,6.56,"1. E-posta, ""freshrpms.net"" adresinden gelmiş ve benzer örneklerde olduğu gibi bir spam veya dolandırma e-postası değildir.
+2. E-posta, xmms ve .mp3 dosyaları konusunda bir tartışmaya yanıt vermektedir.
+3. E-posta içindeki bağlantı güvenli ve ilgili konuya odaklanmıştır.",Matthias Saou <matthias@rpmforge.net>,Re: xmms and .mp3 files.
+SpamAssasin,0,0,GÜVENLİ,-,qwen,6.37,"- E-posta, bir forumda paylaşılan kitap parçalarını sunan ve yorum yapmaya conuk bir mesajdır.
+- Gönderenin gerçek bir e-posta adresi olduğu görülmektedir.
+- Benzer örneklerde de olduğu gibi, bu tür mesajlar genellikle forum veya liste üyelerine bilgi sunmak için gönderilir.",Brian Chapman <wt046@victoria.tc.ca>,"Re: [zzzzteana] Not a materialisation, but a transfiguration"
+SpamAssasin,0,0,GÜVENLİ,-,qwen,7.71,"- E-posta, ""That Goddess Chick"" adlı bir kullanıcıdan gelmektedir ve gönderenin gerçek bir marka alan adı olduğu görebiliriz.
+- E-posta, bir konu hakkında tartışmaya devam etmektedir ve hiçbir şüpheli bağlantı veya istek bulunmamaktadır.
+- Benzer örneklerde de olduğu gibi, bu e-posta genellikle grup tartışmaları veya kişisel iletişimlerden ibaret ve spam veya dolandırıcılık içeriği içermemektedir.",That Goddess Chick <felinda@frogstone.net>,[zzzzteana] Re: Cincinnati Group Wants To Stamp Out Hotel Sex Movies
+SpamAssasin,0,0,GÜVENLİ,-,qwen,7.72,"1. Gönderen ""Joseph S. Barrera III"" <joe@barrera.org> adı ve e-posta adresi gerçek bir kişiyi temsil ediyor ve gönderenin kontrolü kesin bir şüphesi yok.
+2. E-postada bulunan bağlantı ve içerik, diğer benzer örneklerde olduğu gibi sadece bir dizi şaka ve anlamlı ifade içeriyor.
+3. E-posta, spam veya dolandırıcılık türü bir e-posta değildir; aynı gönderenin önceki benzer örneklerinde normal bir e-posta olduğu görülmektedir.","""Joseph S. Barrera III"" <joe@barrera.org>","Re: ""Ouch. Ouch. Ouch. Ouch. Ouch....""(was Re: My brain hurts)"
+SpamAssasin,0,0,GÜVENLİ,-,qwen,8.24,"1. E-posta gönderenin gerçek bir marka alan adı (tim.one@comcast.net) olduğu görülmektedir.
+2. E-postada bulunan anahtar ifadeler (ham, spam) sadece veri olarak kullanılmaktadır ve e-posta istek veya tehdit içermemektedir.
+3. Benzer örneklerde (E1-E5) genellikle teknik ve bilimsel tartışmalar olduğu görülmektedir, bu e-posta da benzer bir tartışmaya odaklanmaktadır.",tim.one@comcast.net (Tim Peters),[Spambayes] Current histograms
+SpamAssasin,0,0,GÜVENLİ,-,qwen,7.29,"1. E-posta, bir teknik listenin bir parçası olarak görünüyor ve genel bir konu hakkında bilgi veriyor.
+2. Gönderen adresi, genel bir e-posta adresi gibi görünüyor ve özel bir marka veya kurum adı bulunmuyor.
+3. E-postada bulunan bağlantı, bir kütüphane veya kaynak paylaşımcısı adresine işaret ediyor ve benzer örneklerde olduğu gibi bir normal e-posta parçası gibi görünüyor.",Vincent <cult@free.fr>,Re: K3B
+SpamAssasin,0,0,GÜVENLİ,-,qwen,7.19,"1. E-posta, Robert Harley adlı bir kişinin gönderdiği ve benzer örneklerde olduğu gibi genel bir konuyla ilgili bir tartışmaya yanıt veren bir metin içeriyor.
+2. E-postada tespit edilen bağlantı, bir forum listesine yönlendirme olup şüpheli bir etkinlik göstermiyor.
+3. Gönderen kontrolü, gönderenin gerçek bir marka alan adı olduğu için şüphelenilmez.",harley@argote.ch (Robert Harley),"Re: # Elliptic Curve Point Counting, made easy"
+SpamAssasin,0,0,GÜVENLİ,-,qwen,4.87,"1. Gönderen kontrolü kesin bir sorun göstermedi.
+2. E-postada bulunan anahtar ifadeler bulunmadı.
+3. Benzer örnekler GÜVENLİ e-postaları göstermektedir.","""R. A. Hettinga"" <rah@shipwright.com>",Re: Slaughter in the Name of God
+SpamAssasin,0,1,ŞÜPHELİ,oltalama,qwen,8.21,"1. E-posta, ""bitbitch@magnesium.net"" adresinden gelmiştir, bu adresin gerçek bir marka veya kurum olduğunu doğrulayamadık.
+2. E-posta metninde ""MF>"" ve ""MF>"" gibi işaretler bulunmuştur, bu işaretler e-postanın otomatik olarak oluşturulmuş olabileceğini göstermektedir.
+3. Benzer örneklerde, genellikle gerçek bir konu veya metin yerine ""Original Message"" veya benzeri ifadeler kullanılmıştır. Bu e-posta da benzer bir yapıya sahip olabilir.",bitbitch@magnesium.net,Re[4]: A moment of silence for the First Amendment (fwd)

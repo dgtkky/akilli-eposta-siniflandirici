@@ -1,0 +1,5 @@
+# Güvenli gönderenler: buradakiler için yalnızca gönderen adresi kuralları (marka taklidi vb.) atlanır.
+# İçerik yine incelenir (enjeksiyon, işaretler, benzer örnekler, Qwen), çünkü adres taklit edilebilir.
+# Her satıra tam adres (ali@firma.com) veya alan adı (@firma.com) yazın.
+# @firma.com, alt alan adlarını da kapsar (ör. mail.firma.com).
+@firma.com

@@ -1,0 +1,30 @@
+kaynak,etiket,tahmin,karar,tur,asama,sure,gerekce,gonderen,konu
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,10.12,"1. E-posta, miras ve para transferi vaatleri içeriyor.
+2. Gönderen, [E1], [E2], [E3], [E4] ve [E5] örneklerde olduğu gibi, bir banka çalışanı olarak kendini tanımlıyor, ancak gerçek bir banka veya kurumdan gönderilen bir e-posta değildir.
+3. E-posta, ""CONCORDE PLANE CRASH"" gibi gerçek bir olay kullanarak kendi hikayesini zenginleştiriyor, dolayısıyla dolandırıcılık örneği benzeri olabilir.",Dr.Edward Hilson. <konsult_edward@yahoo.co.uk>,I WISH TO CONTACT YOU ON THIS ISSUE.
+Nazario,1,1,ŞÜPHELİ,oltalama,qwen,10.53,"1. E-posta ""Access Locked"" konusu ve ""Your Online Banking Has Been Suspended"" metni, hesabınızın kilitlendiği bir durumu ima ediyor.
+2. ""Unverified Email Address"" ve ""Invalid Home Address"" gibi hatalar belirtildi ve kullanıcıya bir bağlantı sunuldu (""Click Here And Restore Your Account""), bu tür bir istek genellikle oltalama e-postalarında bulunur.
+3. E-Posta, gönderen kontrolü için belirgin bir sorun bulunmadı, ancak benzer örneklerde (E1-E5) olduğu gibi, genellikle oltalama e-postalarında olduğu gibi, kullanıcıya bir bağlantı sunuluyor ve hesabının kilitlendiği bir durum belirtiliyor.",Truist Alerts <alertnotifications@message.truist-com>,Access Locked
+Nigerian_Fraud,1,1,ŞÜPHELİ,dolandırıcılık,qwen,7.54,"1. E-posta, ""URGENT BUSINESS PROPOSAL"" konusu ve ""URGENT"" ifadesiyle acil bir durumu ima etmeye çalışıyor.
+2. Para transferi talebi ve ""beneficiary"" ifadesi, dolandırıcılık örneklere benzer.
+3. Gönderenin gerçek bir kurumdan geldiğini doğrulayan belirgin bir kanıt bulunmamakta.",Sullivan Richard <r.richard10@hotmail.com>,From Mr.Sullivan
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,6.43,"1. E-posta, ""immediately"" ifadesi kullanarak acil bir durumu vurguluyor.
+2. Robert G. Allen isminde bir reklam e-postası benzeri örneklere (E1, E2) benzemekte.
+3. E-posta, hızlı ve kolay bir kazanc yolu teklif ediyor.",(bilinmiyor),"free book ! from # 1 best - selling financial author , robert allen"
+Ling,1,1,ŞÜPHELİ,spam-reklam,qwen,7.81,"1. Gönderen adresi bilinmiyor ve e-posta, tanınmayan bir kaynakdan gelmektedir.
+2. E-postada ""get-a - way"" ve ""promotions"" gibi reklam指向的关键词，表明这封邮件具有广告性质。
+3. Benzer örneklere göre, bu tür e-postalar genellikle tanınmayan kaynaklardan gelen ve kişisel bilgiye dayalı olarak gönderilen reklamları içerir.",(bilinmiyor),"adv : y2k . . . pristine , remote wilderness acreage ."
+SpamAssasin,0,0,GÜVENLİ,-,qwen,7.28,"- E-posta, ""baesystems.com"" alan adıyla gönderildi ve gönderenin gerçek bir marka olduğunu gösteriyor.
+- E-posta, bir forumun konularını ve üyelerini tartışan bir mesajın yanıtını oluşturuyor.
+- Benzer örneklerde de olduğu gibi, bu tür mesajlar genellikle forum veya gruplarla ilgili tartışmaları içerir ve güvenli olabilir.","""uncle_slacky"" <robert.chambers@baesystems.com>",[zzzzteana] Re: Argh!
+Ling,0,0,GÜVENLİ,-,qwen,6.25,"1. E-posta, benzer örneklerdeki normal bir liste ve bilgi paylaşımı gibi görünmektedir.
+2. E-postada belirgin bir şifre isteği, para talebi veya dolandırıcı ifade bulunmamaktadır.
+3. E-posta, bir araştırma grubu ile ilgili ve genel bir konu hakkında bilgi paylaşımıdır.",(bilinmiyor),"re : 3 . 420 fyi : morphology , concordance"
+Ling,0,0,GÜVENLİ,-,qwen,5.76,"1. E-posta, bir bilgi talebi içermektedir ve dolayısıyla dolandırıcılık veya oltalama türü bir e-posta değildir.
+2. Benzer örneklerde olduğu gibi, bu e-posta da bir bilimsel araştırma grubu tarafından gönderilen ve diğer bilginin talep edildiği normal bir e-posta benzeridir.",(bilinmiyor),query : guide to software for linguistic analysis
+Enron,0,0,GÜVENLİ,-,qwen,8.62,"1. E-posta, ""good media article"" ifadesiyle başlaması ve bir makaleyi paylaştığı belirtilmesi, dolandırıcılık veya oltalama e-postası olma olasılığını azaltıyor.
+2. Gönderenin adı ve firma bilgisi verilmiştir: ""Raymond C. Niles, Power / Natural Gas Research, Salomon Smith Barney"". Bu bilgi, e-postanın gerçek bir kurumdan geldiğine dair bir işaret.
+3. E-posta, benzer örneklerde olduğu gibi, genel bilgi ve makale paylaşımı içermekte ve reklam veya özel bilgi talep etmemektedir.",(bilinmiyor),good media article explaining the california power markets and th e
+Enron,0,0,GÜVENLİ,-,qwen,6.89,"1. E-posta, realestate ve moving experience gibi temel iş konularında ve kişisel bir tonla yazılmıştır.
+2. Bağlantılar ve form doldurma talepleri bulunmamaktadır.
+3. E-posta, gerçek bir realestate firması tarafından gönderilmiş ve benzer örneklerde (E3) olduğu gibi profesyonel ve kişisel bir tonla yazılmıştır.",(bilinmiyor),hi darren

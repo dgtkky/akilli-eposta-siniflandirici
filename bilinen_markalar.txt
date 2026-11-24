@@ -1,0 +1,57 @@
+# Bilinen markalar ve gerçek alan adları
+# Biçim:  marka: gerçek_alan1, gerçek_alan2
+# Marka adı küçük harf, Türkçe karaktersiz ve boşluksuz yazılır.
+# Alan adında veya gönderen adında bu marka adı geçip adres gerçek alan adından
+# gelmiyorsa taklit şüphesi doğar.
+
+# Kripto / ödeme
+binance: binance.com
+btcturk: btcturk.com
+paypal: paypal.com
+papara: papara.com
+
+# Bankalar
+garanti: garantibbva.com.tr, garanti.com.tr
+akbank: akbank.com
+ziraat: ziraatbank.com.tr
+isbank: isbank.com.tr
+yapikredi: yapikredi.com.tr
+halkbank: halkbank.com.tr
+vakifbank: vakifbank.com.tr
+denizbank: denizbank.com
+qnb: qnb.com.tr
+enpara: enpara.com
+
+# Kargo
+yurtici: yurticikargo.com
+araskargo: araskargo.com.tr
+mngkargo: mngkargo.com.tr
+ptt: ptt.gov.tr
+dhl: dhl.com
+ups: ups.com
+fedex: fedex.com
+
+# E-ticaret
+trendyol: trendyol.com
+hepsiburada: hepsiburada.com
+amazon: amazon.com, amazon.com.tr, amazonses.com
+sahibinden: sahibinden.com
+
+# Kamu
+edevlet: turkiye.gov.tr
+gib: gib.gov.tr
+sgk: sgk.gov.tr
+
+# Teknoloji / sosyal medya
+microsoft: microsoft.com, office.com, microsoftonline.com
+apple: apple.com
+google: google.com, youtube.com, googlegroups.com, googlecode.com
+netflix: netflix.com
+facebook: facebook.com, facebookmail.com
+instagram: instagram.com
+whatsapp: whatsapp.com
+
+# Operatörler
+turkcell: turkcell.com.tr
+vodafone: vodafone.com.tr, vodafone.com
+turktelekom: turktelekom.com.tr

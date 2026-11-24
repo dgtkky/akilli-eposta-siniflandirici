@@ -1,0 +1,194 @@
+{
+  "name": "Oltalama — E-posta Analiz (Webhook)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "eposta-analiz",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook",
+      "name": "Webhook — eposta-analiz",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [200, 300],
+      "webhookId": "oltalama-eposta-analiz"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8000/analiz",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ gonderen: $json.body.gonderen ?? \"\", konu: $json.body.konu ?? \"\", metin: $json.body.metin ?? \"\" }) }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "id": "http",
+      "name": "FastAPI — analiz",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [450, 300],
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "kosul-supheli",
+                    "leftValue": "={{ $json.karar }}",
+                    "rightValue": "ŞÜPHELİ",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "ŞÜPHELİ"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "kosul-guvenli",
+                    "leftValue": "={{ $json.karar }}",
+                    "rightValue": "GÜVENLİ",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "GÜVENLİ"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra",
+          "renameFallbackOutput": "Beklenmeyen"
+        }
+      },
+      "id": "switch",
+      "name": "Karar?",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [700, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ karar: $json.karar, tur: $json.tur, uyari: '⚠️ Bu e-posta şüpheli (' + $json.tur + '). Bağlantılara tıklamayın, bilgi veya ödeme göndermeyin.' + ($json.guvenli_liste_uyarisi ? ' Bu adres güvenli listende ama içerik şüpheli; adres taklit edilmiş veya hesap ele geçirilmiş olabilir.' : ''), gerekce: $json.gerekce, isaretler: $json.isaretler, guvenli_liste_uyarisi: $json.guvenli_liste_uyarisi, asama: $json.asama, sure: $json.sure }) }}",
+        "options": {}
+      },
+      "id": "respond_supheli",
+      "name": "Şüpheli — Uyarı Döndür",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [950, 140]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ karar: $json.karar, kategori: $json.kategori, kategori_gerekce: $json.kategori_gerekce, gerekce: $json.gerekce, isaretler: $json.isaretler, asama: $json.asama, sure: $json.sure }) }}",
+        "options": {}
+      },
+      "id": "respond_guvenli",
+      "name": "Güvenli — Kategori Döndür",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [950, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ hata: 'API beklenmeyen bir karar döndürdü', karar: $json.karar ?? null }) }}",
+        "options": {
+          "responseCode": 500
+        }
+      },
+      "id": "respond_beklenmeyen",
+      "name": "Beklenmeyen Cevap",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [950, 460]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ hata: 'Analiz API isteği başarısız (API kapalı, anahtar yanlış veya metin boş olabilir)', ayrinti: $json.error?.message ?? null }) }}",
+        "options": {
+          "responseCode": 502
+        }
+      },
+      "id": "respond_hata",
+      "name": "API Hatası Döndür",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [700, 520]
+    }
+  ],
+  "connections": {
+    "Webhook — eposta-analiz": {
+      "main": [
+        [
+          { "node": "FastAPI — analiz", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "FastAPI — analiz": {
+      "main": [
+        [
+          { "node": "Karar?", "type": "main", "index": 0 }
+        ],
+        [
+          { "node": "API Hatası Döndür", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Karar?": {
+      "main": [
+        [
+          { "node": "Şüpheli — Uyarı Döndür", "type": "main", "index": 0 }
+        ],
+        [
+          { "node": "Güvenli — Kategori Döndür", "type": "main", "index": 0 }
+        ],
+        [
+          { "node": "Beklenmeyen Cevap", "type": "main", "index": 0 }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "active": false,
+  "pinData": {},
+  "tags": []
+}

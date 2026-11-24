@@ -1,0 +1,4 @@
+# Engelli gönderenler: buradan gelen e-postalar doğrudan ŞÜPHELİ sayılır.
+# Her satıra tam adres (kotu@ornek.com) veya alan adı (@ornek.com) yazın.
+# @ornek.com, alt alan adlarını da kapsar (ör. mail.ornek.com).
+@ornek-dolandirici.xyz

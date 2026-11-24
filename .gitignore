@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# ChromaDB (p2_indeks.py ile yeniden oluşturulur)
+chroma_eposta/
+
+# Veri CSV'leri (Kaggle'dan indirilir; p1_veri.py ile hazırlanır)
+CEAS_08.csv
+Enron.csv
+Ling.csv
+Nazario.csv
+Nigerian_Fraud.csv
+SpamAssasin.csv
+phishing_email.csv
+train.csv
+test.csv
+
+# E-posta metni içeren ölçüm dosyaları
+sonuclar/**/*yanlislar.csv
+sonuclar/**/orneklem*.csv
+
+# Ders kodları (derse ait, bu projenin parçası değil)
+ders_kodlari/
+
+# Sistem ve günlük dosyaları
+.DS_Store
+*.log
+nohup.out
+
+# Gizli bilgiler (projede yok; yanlışlıkla eklenmesin diye)
+.env
+*.pem
+client_secret*.json

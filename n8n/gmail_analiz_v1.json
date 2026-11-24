@@ -1,0 +1,493 @@
+{
+  "name": "Oltalama — Gmail Analiz",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "simple": false,
+        "filters": {
+          "q": "in:inbox -subject:\"[Oltalama Uyarısı]\""
+        },
+        "options": {
+          "downloadAttachments": false
+        }
+      },
+      "id": "Gmail Trigger",
+      "name": "Gmail Trigger",
+      "type": "n8n-nodes-base.gmailTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        300
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "Vkuq7hTAcSugIbC2",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "label",
+        "operation": "getAll",
+        "returnAll": true
+      },
+      "id": "Etiketleri getir",
+      "name": "Etiketleri getir",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        220,
+        300
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "Vkuq7hTAcSugIbC2",
+          "name": "Gmail account"
+        }
+      },
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "jsCode": "// Gerekli 8 etiketten Gmail'de olmayanları bulur. Her zaman TEK öğe döndürür,\n// böylece eksik etiket olmasa da akış devam eder.\nconst istenen = ['⚠️ Şüpheli', 'İş', 'Fatura-Ödeme', 'Kargo', 'Sosyal Medya', 'Reklam-Bülten', 'Kişisel', 'Diğer'];\nconst mevcut = new Set($input.all().map(i => i.json.name));\nconst eksik = istenen.filter(ad => !mevcut.has(ad));\nreturn [{ json: { eksik } }];"
+      },
+      "id": "Eksik etiketler",
+      "name": "Eksik etiketler",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        440,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "eksik-var",
+              "leftValue": "={{ $json.eksik.length }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "Eksik etiket var mı?",
+      "name": "Eksik etiket var mı?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        660,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Her eksik etiket için ayrı bir öğe: Gmail düğümü her biri için bir etiket oluşturur.\nreturn $json.eksik.map(ad => ({ json: { ad } }));"
+      },
+      "id": "Tek tek ayır",
+      "name": "Tek tek ayır",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        880,
+        160
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "label",
+        "operation": "create",
+        "name": "={{ $json.ad }}",
+        "options": {}
+      },
+      "id": "Etiket oluştur",
+      "name": "Etiket oluştur",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1100,
+        160
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "Vkuq7hTAcSugIbC2",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "label",
+        "operation": "getAll",
+        "returnAll": true
+      },
+      "id": "Etiketleri yeniden getir",
+      "name": "Etiketleri yeniden getir",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1320,
+        300
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "Vkuq7hTAcSugIbC2",
+          "name": "Gmail account"
+        }
+      },
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "jsCode": "// Gmail Trigger'dan gelen e-postaları API'nin beklediği biçime çevirir.\n// - Uyarı e-postalarımız atlanır (sonsuz döngü koruması, 2. katman).\n// - Düz metin yoksa HTML düz metne çevrilir; bağlantılar \"metin (adres)\" olarak korunur.\n// - Etiket adı -> kimlik haritası her öğeye eklenir.\nconst UYARI_ONEKI = '[Oltalama Uyarısı]';\nconst harita = Object.fromEntries($('Etiketleri yeniden getir').all().map(i => [i.json.name, i.json.id]));\n\nfunction htmlMetin(html) {\n  return String(html || '')\n    .replace(/<(script|style)[\\s\\S]*?<\\/\\1>/gi, ' ')\n    .replace(/<a\\s[^>]*href=[\"']([^\"']+)[\"'][^>]*>([\\s\\S]*?)<\\/a>/gi, '$2 ($1)')\n    .replace(/<br\\s*\\/?>|<\\/(p|div|li|tr|h\\d)>/gi, '\\n')\n    .replace(/<[^>]+>/g, ' ')\n    .replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>')\n    .replace(/&quot;/g, '\"').replace(/&#39;/g, \"'\").replace(/&amp;/g, '&')\n    .replace(/[ \\t]+/g, ' ').replace(/\\n\\s*\\n+/g, '\\n\\n').trim();\n}\n\nconst sonuc = [];\nfor (const oge of $('Gmail Trigger').all()) {\n  const e = oge.json;\n  const konu = String(e.subject || '');\n  if (konu.startsWith(UYARI_ONEKI)) continue;\n  const metin = (e.text && e.text.trim()) ? e.text : htmlMetin(e.html);\n  sonuc.push({ json: {\n    mesaj_id: e.id,\n    gonderen: (e.from && e.from.text) || '',\n    konu,\n    metin: (metin || '(metin yok)').slice(0, 200000),   // API sınırı\n    etiketler: harita,\n  }});\n}\nreturn sonuc;"
+      },
+      "id": "E-postaları hazırla",
+      "name": "E-postaları hazırla",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1540,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8000/analiz",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ gonderen: $json.gonderen, konu: $json.konu, metin: $json.metin }) }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "id": "FastAPI — analiz",
+      "name": "FastAPI — analiz",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1760,
+        300
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "BXDuDFm7jo7XIxSs",
+          "name": "Header Auth account"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "errorMessage": "Analiz API isteği başarısız (API kapalı veya anahtar yanlış olabilir)"
+      },
+      "id": "API hatası",
+      "name": "API hatası",
+      "type": "n8n-nodes-base.stopAndError",
+      "typeVersion": 1,
+      "position": [
+        1980,
+        480
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// API sonucunu e-posta bilgileriyle birleştirir ve eklenecek etiketi seçer.\nconst e = $('E-postaları hazırla').item.json;\nconst a = $json;\nconst etiketAdi = a.karar === 'ŞÜPHELİ' ? '⚠️ Şüpheli' : (a.kategori || 'Diğer');\nconst etiketId = e.etiketler[etiketAdi];\nif (!etiketId) throw new Error('Gmail etiketi bulunamadı: ' + etiketAdi);\nreturn { json: { ...a, mesaj_id: e.mesaj_id, orijinal_gonderen: e.gonderen,\n                 orijinal_konu: e.konu, etiket_adi: etiketAdi, etiket_id: etiketId } };",
+        "mode": "runOnceForEachItem"
+      },
+      "id": "Sonucu birleştir",
+      "name": "Sonucu birleştir",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1980,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "addLabels",
+        "messageId": "={{ $json.mesaj_id }}",
+        "labelIds": "={{ [$json.etiket_id] }}"
+      },
+      "id": "Etiketi ekle",
+      "name": "Etiketi ekle",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2200,
+        300
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "Vkuq7hTAcSugIbC2",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "supheli-mi",
+              "leftValue": "={{ $('Sonucu birleştir').item.json.karar }}",
+              "rightValue": "ŞÜPHELİ",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "Şüpheli mi?",
+      "name": "Şüpheli mi?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        2420,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Düz metin uyarı e-postası. Bağlantılar ve alan adları etkisizleştirilir (defang):\n// http://kotu.com -> hxxp://kotu[.]com ; Gmail bunları tıklanabilir yapmaz.\nconst a = $('Sonucu birleştir').item.json;\nconst GUVENLI_LISTE_CUMLESI = 'Güvenli listedeki bir adresten geliyor ama içerik şüpheli; adres taklit edilmiş veya hesap ele geçirilmiş olabilir.';\n\nfunction etkisiz(yazi) {\n  return String(yazi ?? '')\n    .replace(/\\b(?:https?:\\/\\/|www\\.)[^\\s\"'<>]+/gi, u => u.replace(/^http/i, 'hxxp').replace(/\\./g, '[.]'))\n    .replace(/\\b(?:[a-z0-9-]+\\.)+[a-z]{2,}\\b/gi, d => d.replace(/\\./g, '[.]'));\n}\n\nlet gerekce = String(a.gerekce || '');\nif (gerekce.startsWith(GUVENLI_LISTE_CUMLESI)) gerekce = gerekce.slice(GUVENLI_LISTE_CUMLESI.length).trim();\n\nconst satirlar = [\n  'Gelen kutunuzdaki bir e-posta ŞÜPHELİ olarak işaretlendi.', '',\n  'Gönderen : ' + etkisiz(a.orijinal_gonderen),\n  'Konu     : ' + etkisiz(a.orijinal_konu),\n  'Tür      : ' + a.tur, '',\n];\nif (a.guvenli_liste_uyarisi) satirlar.push('UYARI: Bu adres güvenli listende ama içerik şüpheli; adres taklit edilmiş veya hesap ele geçirilmiş olabilir.', '');\nsatirlar.push('Gerekçe:', etkisiz(gerekce), '');\nif ((a.isaretler || []).length) {\n  satirlar.push('Bulunan işaretler:');\n  for (const i of a.isaretler) satirlar.push(`- ${i.isaret}: \"${etkisiz(i.ifade)}\"`);\n  satirlar.push('');\n}\nsatirlar.push('Bağlantılara tıklamayın, bilgi veya ödeme göndermeyin.',\n              'E-postaya Gmail\\'de \"⚠️ Şüpheli\" etiketi eklendi.');\n\nconst konuSatiri = etkisiz(a.orijinal_konu).replace(/[\\r\\n]+/g, ' ').slice(0, 120);\nreturn { json: { konu: '[Oltalama Uyarısı] ⚠️ Şüpheli e-posta: ' + konuSatiri, govde: satirlar.join('\\n') } };",
+        "mode": "runOnceForEachItem"
+      },
+      "id": "Uyarıyı hazırla",
+      "name": "Uyarıyı hazırla",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2640,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "send",
+        "sendTo": "TEST_HESABI@gmail.com",
+        "subject": "={{ $json.konu }}",
+        "emailType": "text",
+        "message": "={{ $json.govde }}",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "Uyarı gönder",
+      "name": "Uyarı gönder",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2860,
+        200
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "Vkuq7hTAcSugIbC2",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Gmail Trigger": {
+      "main": [
+        [
+          {
+            "node": "Etiketleri getir",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Etiketleri getir": {
+      "main": [
+        [
+          {
+            "node": "Eksik etiketler",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Eksik etiketler": {
+      "main": [
+        [
+          {
+            "node": "Eksik etiket var mı?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Eksik etiket var mı?": {
+      "main": [
+        [
+          {
+            "node": "Tek tek ayır",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Etiketleri yeniden getir",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tek tek ayır": {
+      "main": [
+        [
+          {
+            "node": "Etiket oluştur",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Etiket oluştur": {
+      "main": [
+        [
+          {
+            "node": "Etiketleri yeniden getir",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Etiketleri yeniden getir": {
+      "main": [
+        [
+          {
+            "node": "E-postaları hazırla",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "E-postaları hazırla": {
+      "main": [
+        [
+          {
+            "node": "FastAPI — analiz",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "FastAPI — analiz": {
+      "main": [
+        [
+          {
+            "node": "Sonucu birleştir",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "API hatası",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sonucu birleştir": {
+      "main": [
+        [
+          {
+            "node": "Etiketi ekle",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Etiketi ekle": {
+      "main": [
+        [
+          {
+            "node": "Şüpheli mi?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Şüpheli mi?": {
+      "main": [
+        [
+          {
+            "node": "Uyarıyı hazırla",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "Uyarıyı hazırla": {
+      "main": [
+        [
+          {
+            "node": "Uyarı gönder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "active": false,
+  "pinData": {},
+  "tags": []
+}

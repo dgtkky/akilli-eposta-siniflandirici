@@ -1,0 +1,28 @@
+=== GENEL SONUÇLAR (10 e-posta; pozitif sınıf = ŞÜPHELİ) ===
+Doğruluk       : %100.0
+Kesinlik       : %100.0   (ŞÜPHELİ dediklerinin yüzde kaçı gerçekten şüpheli)
+Geri çağırma   : %100.0   (gerçek şüphelilerin yüzde kaçı yakalandı)
+F1             : %100.0
+Ortalama süre  : 7.7 sn / e-posta  (ortanca 7.4, en uzun 10.5, toplam 1.3 dk)
+
+Karmaşıklık matrisi:
+                    tahmin ŞÜPHELİ   tahmin GÜVENLİ
+  gerçek ŞÜPHELİ                 5                0
+  gerçek GÜVENLİ                 0                5
+
+=== KAYNAK BAZINDA ===
+Şüpheli kaynaklar (yakalanma oranı):
+  Ling              2/2   %100.0   ort. 7.1 sn
+  Nazario           1/1   %100.0   ort. 10.5 sn
+  Nigerian_Fraud    2/2   %100.0   ort. 8.8 sn
+Güvenli kaynaklar (doğru GÜVENLİ denme oranı):
+  Enron             2/2   %100.0   ort. 7.8 sn
+  Ling              2/2   %100.0   ort. 6.0 sn
+  SpamAssasin       1/1   %100.0   ort. 7.3 sn
+  → Nazario oltalamalarının %100.0'i yakalandı.
+
+=== KARARIN VERİLDİĞİ AŞAMA ===
+  aşama   sayı   doğru   gerçek şüpheli / güvenli   ort. süre
+  qwen      10    10/10           5 / 5              7.7 sn
+
+Toplam çalışma süresi: 1.3 dk
